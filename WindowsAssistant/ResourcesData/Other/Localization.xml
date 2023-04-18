@@ -1,0 +1,404 @@
+﻿<Localization>
+	<Key Name="Home">
+		<Translations>
+			<English>Home</English>
+			<Russian>Домашняя Страница</Russian>
+		</Translations>
+	</Key>
+	<Key Name="FSystem">
+		<Translations>
+			<English>System</English>
+			<Russian>Система</Russian>
+		</Translations>
+	</Key>
+	<Key Name="Interface">
+		<Translations>
+			<English>Interface</English>
+			<Russian>Интерфейс</Russian>
+		</Translations>
+	</Key>
+	<Key Name="ContextMenu">
+		<Translations>
+			<English>Context Menu</English>
+			<Russian>Контекстное Меню</Russian>
+		</Translations>
+	</Key>
+	<Key Name="Extensions">
+		<Translations>
+			<English>Extensions</English>
+			<Russian>Расширения</Russian>
+		</Translations>
+	</Key>
+	<Key Name="TemporaryPaths">
+		<Translations>
+			<English>Temporary Paths</English>
+			<Russian>Временные Пути</Russian>
+		</Translations>
+	</Key>
+	<Key Name="Settings">
+		<Translations>
+			<English>Settings</English>
+			<Russian>Настройки</Russian>
+		</Translations>
+	</Key>
+	<Key Name="Template_Button_System">
+		<Translations>
+			<English>  System</English>
+			<Russian>  Система</Russian>
+		</Translations>
+	</Key>
+	<Key Name="Template_Button_Interface">
+		<Translations>
+			<English>  Interface</English>
+			<Russian>  Интерфейс</Russian>
+		</Translations>
+	</Key>
+	<Key Name="Template_Button_ContextMenu">
+		<Translations>
+			<English>  Context Menu</English>
+			<Russian>  Контекстное Меню</Russian>
+		</Translations>
+	</Key>
+	<Key Name="Template_Button_Extensions">
+		<Translations>
+			<English>  Extensions</English>
+			<Russian>  Расширения</Russian>
+		</Translations>
+	</Key>
+	<Key Name="Template_Button_TemporaryPaths">
+		<Translations>
+			<English>  Temporary Paths</English>
+			<Russian>  Временные Пути</Russian>
+		</Translations>
+	</Key>
+	<Key Name="Template_Button_Settings">
+		<Translations>
+			<English>  Settings</English>
+			<Russian>  Настройки</Russian>
+		</Translations>
+	</Key>
+	<Key Name="Template_Button_LanguageSwitcher">
+		<Translations>
+			<English>  English</English>
+			<Russian>  Русский</Russian>
+		</Translations>
+	</Key>
+	<Key Name="Home_GroupBox_ProgramUpdate">
+		<Translations>
+			<English>Program Update</English>
+			<Russian>Обновление Программы</Russian>
+		</Translations>
+	</Key>
+	<Key Name="Home_Label_UpdateStatus_NoGitHubConnection">
+		<Translations>
+			<English>♦ No GitHub Connection</English>
+			<Russian>♦ Нет Подключения к GitHub</Russian>
+		</Translations>
+	</Key>
+	<Key Name="Home_Label_UpdateStatus_ProgramNoLongerSupported">
+		<Translations>
+			<English>♦ Program no Longer Supported</English>
+			<Russian>♦ Программа Больше не Поддерживается</Russian>
+		</Translations>
+	</Key>
+	<Key Name="Home_Label_UpdateStatus_YouUsingLatestVersionProgram">
+		<Translations>
+			<English>♦ You Using Latest Version Program</English>
+			<Russian>♦ Вы Используете Последнюю Версию Программы</Russian>
+		</Translations>
+	</Key>
+	<Key Name="Home_Label_UpdateStatus_ProgramUpdateAvailable">
+		<Translations>
+			<English>♦ Program Update Available</English>
+			<Russian>♦ Доступно Обновление Программы</Russian>
+		</Translations>
+	</Key>
+	<Key Name="Home_Label_UpdateStatus_DownloadingUpdate">
+		<Translations>
+			<English>♦ Downloading Update...</English>
+			<Russian>♦ Загрузка Обновления...</Russian>
+		</Translations>
+	</Key>
+	<Key Name="Home_Label_ChangeLog">
+		<Translations>
+			<English>♦ Change Log in Updated Version</English>
+			<Russian>♦ Список Изменений в Обновлённой Версии</Russian>
+		</Translations>
+	</Key>
+	<Key Name="Home_HtmlLabel_Content_FailedToLoadChangeLog">
+		<Translations>
+			<English>• Failed to Load Change Log</English>
+			<Russian>• Не Удалось Загрузить Список Изменений</Russian>
+		</Translations>
+	</Key>
+	<Key Name="Home_Button_DownloadAndRun">
+		<Translations>
+			<English>Download and Run</English>
+			<Russian>Скачать и Запустить</Russian>
+		</Translations>
+	</Key>
+	<Key Name="FSystem_GroupBox_PowerScheme">
+		<Translations>
+			<English>"Ultimate Performance" Power Scheme</English>
+			<Russian>Схема "Максимальная Производительность"</Russian>
+		</Translations>
+	</Key>
+	<Key Name="FSystem_RadioButton_PowerScheme_Unlock">
+		<Translations>
+			<English>Unlock and Activate</English>
+			<Russian>Разблокировать и Активировать</Russian>
+		</Translations>
+	</Key>
+	<Key Name="FSystem_RadioButton_PowerScheme_Lock">
+		<Translations>
+			<English>Lock and Deactivate</English>
+			<Russian>Блокировать и Деактивировать</Russian>
+		</Translations>
+	</Key>
+	<Key Name="FSystem_GroupBox_WindowsUpdates">
+		<Translations>
+			<English>Windows Updates</English>
+			<Russian>Обновления Windows</Russian>
+		</Translations>
+	</Key>
+	<Key Name="FSystem_RadioButton_WindowsUpdates_Enable">
+		<Translations>
+			<English>Enable</English>
+			<Russian>Включить</Russian>
+		</Translations>
+	</Key>
+	<Key Name="FSystem_RadioButton_WindowsUpdates_Disable">
+		<Translations>
+			<English>Disable</English>
+			<Russian>Выключить</Russian>
+		</Translations>
+	</Key>
+	<Key Name="FSystem_GroupBox_AntiCrash">
+		<Translations>
+			<English>Anti-Crash in Unreal Engine Games</English>
+			<Russian>Анти-Краш в Играх на Unreal Engine</Russian>
+		</Translations>
+	</Key>
+	<Key Name="FSystem_RadioButton_AntiCrash_Enable">
+		<Translations>
+			<English>Enable</English>
+			<Russian>Включить</Russian>
+		</Translations>
+	</Key>
+	<Key Name="FSystem_RadioButton_AntiCrash_Disable">
+		<Translations>
+			<English>Disable</English>
+			<Russian>Выключить</Russian>
+		</Translations>
+	</Key>
+	<Key Name="Interface_GroupBox_SecondsClock">
+		<Translations>
+			<English>Seconds in Clock</English>
+			<Russian>Секунды в Часах</Russian>
+		</Translations>
+	</Key>
+	<Key Name="Interface_RadioButton_Add">
+		<Translations>
+			<English>Add</English>
+			<Russian>Добавить</Russian>
+		</Translations>
+	</Key>
+	<Key Name="Interface_RadioButton_Delete">
+		<Translations>
+			<English>Delete</English>
+			<Russian>Удалить</Russian>
+		</Translations>
+	</Key>
+	<Key Name="Interface_Button_ClearWallpapers">
+		<Translations>
+			<English>Clear Wallpapers History</English>
+			<Russian>Очистить Историю Обоев</Russian>
+		</Translations>
+	</Key>
+	<Key Name="Interface_GroupBox_Corrections">
+		<Translations>
+			<English>Corrections</English>
+			<Russian>Исправления</Russian>
+		</Translations>
+	</Key>
+	<Key Name="Interface_Button_DesktopUpdate">
+		<Translations>
+			<English>Desktop Update</English>
+			<Russian>Обновление Рабочего Стола</Russian>
+		</Translations>
+	</Key>
+	<Key Name="Interface_Button_IconCache">
+		<Translations>
+			<English>Icon Cache</English>
+			<Russian>Кэш Иконок</Russian>
+		</Translations>
+	</Key>
+	<Key Name="ContextMenu_GroupBox_ControlPanel">
+		<Translations>
+			<English>Control Panel</English>
+			<Russian>Панель Управления</Russian>
+		</Translations>
+	</Key>
+	<Key Name="ContextMenu_RadioButton_ControlPanel_Add">
+		<Translations>
+			<English>Add</English>
+			<Russian>Добавить</Russian>
+		</Translations>
+	</Key>
+	<Key Name="ContextMenu_RadioButton_ControlPanel_Delete">
+		<Translations>
+			<English>Delete</English>
+			<Russian>Удалить</Russian>
+		</Translations>
+	</Key>
+	<Key Name="ContextMenu_ControlPanel">
+		<Translations>
+			<English>Control Panel</English>
+			<Russian>Панель Управления</Russian>
+		</Translations>
+	</Key>
+	<Key Name="ContextMenu_GroupBox_RegistryEditor">
+		<Translations>
+			<English>Registry Editor</English>
+			<Russian>Редактор Реестра</Russian>
+		</Translations>
+	</Key>
+	<Key Name="ContextMenu_RadioButton_RegistryEditor_Add">
+		<Translations>
+			<English>Add</English>
+			<Russian>Добавить</Russian>
+		</Translations>
+	</Key>
+	<Key Name="ContextMenu_RadioButton_RegistryEditor_Delete">
+		<Translations>
+			<English>Delete</English>
+			<Russian>Удалить</Russian>
+		</Translations>
+	</Key>
+	<Key Name="ContextMenu_RegistryEditor">
+		<Translations>
+			<English>Registry Editor</English>
+			<Russian>Редактор Реестра</Russian>
+		</Translations>
+	</Key>
+	<Key Name="Extensions_Label_Extension">
+		<Translations>
+			<English>Extension -</English>
+			<Russian>Расширение -</Russian>
+		</Translations>
+	</Key>
+	<Key Name="Extensions_TextBox_Extension">
+		<Translations>
+			<English>Without Dot</English>
+			<Russian>Без Точки</Russian>
+		</Translations>
+	</Key>
+	<Key Name="Extensions_Button_Add">
+		<Translations>
+			<English>Add</English>
+			<Russian>Добавить</Russian>
+		</Translations>
+	</Key>
+	<Key Name="Extensions_Button_Delete">
+		<Translations>
+			<English>Delete</English>
+			<Russian>Удалить</Russian>
+		</Translations>
+	</Key>
+	<Key Name="TemporaryPaths_Label_Path">
+		<Translations>
+			<English>Path -</English>
+			<Russian>Путь -</Russian>
+		</Translations>
+	</Key>
+	<Key Name="TemporaryPaths_FolderBrowserDialog_Path_Description">
+		<Translations>
+			<English>Select Folder You Want Add</English>
+			<Russian>Выберите Папку, Которую Хотите Добавить</Russian>
+		</Translations>
+	</Key>
+	<Key Name="TemporaryPaths_Label_PathsList">
+		<Translations>
+			<English>Paths List</English>
+			<Russian>Список Путей</Russian>
+		</Translations>
+	</Key>
+	<Key Name="TemporaryPaths_Button_RefreshList">
+		<Translations>
+			<English>Refresh List</English>
+			<Russian>Обновить Список</Russian>
+		</Translations>
+	</Key>
+	<Key Name="TemporaryPaths_Button_AddPath">
+		<Translations>
+			<English>Add Path</English>
+			<Russian>Добавить Путь</Russian>
+		</Translations>
+	</Key>
+	<Key Name="TemporaryPaths_Button_DeletePath">
+		<Translations>
+			<English>Delete Path</English>
+			<Russian>Удалить Путь</Russian>
+		</Translations>
+	</Key>
+	<Key Name="TemporaryPaths_Button_MoveUp">
+		<Translations>
+			<English>Move Up</English>
+			<Russian>Переместить Вверх</Russian>
+		</Translations>
+	</Key>
+	<Key Name="TemporaryPaths_Button_MoveDown">
+		<Translations>
+			<English>Move Down</English>
+			<Russian>Переместить Вниз</Russian>
+		</Translations>
+	</Key>
+	<Key Name="TemporaryPaths_Button_EditPath">
+		<Translations>
+			<English>Edit Path</English>
+			<Russian>Редактировать Путь</Russian>
+		</Translations>
+	</Key>
+	<Key Name="Settings_Label_SavePath">
+		<Translations>
+			<English>Save Path -</English>
+			<Russian>Путь до Сохранения -</Russian>
+		</Translations>
+	</Key>
+	<Key Name="Settings_SaveFileDialog_SavePath_Title">
+		<Translations>
+			<English>Save Path</English>
+			<Russian>Путь до Сохранения</Russian>
+		</Translations>
+	</Key>
+	<Key Name="Settings_SaveFileDialog_SavePath_Filter">
+		<Translations>
+			<English>JSON File|*.json</English>
+			<Russian>JSON Файл|*.json</Russian>
+		</Translations>
+	</Key>
+	<Key Name="Settings_GroupBox_AutoProgramUpdates">
+		<Translations>
+			<English>Auto Program Updates</English>
+			<Russian>Автоматическое Обновление Программы</Russian>
+		</Translations>
+	</Key>
+	<Key Name="Settings_RadioButton_Enable">
+		<Translations>
+			<English>Enable</English>
+			<Russian>Включить</Russian>
+		</Translations>
+	</Key>
+	<Key Name="Settings_RadioButton_Disable">
+		<Translations>
+			<English>Disable</English>
+			<Russian>Выключить</Russian>
+		</Translations>
+	</Key>
+	<Key Name="Settings_Button_DeleteSavedProgramFiles">
+		<Translations>
+			<English>Delete Saved Program Files</English>
+			<Russian>Удалить Сохранённые Программные Файлы</Russian>
+		</Translations>
+	</Key>
+</Localization>
