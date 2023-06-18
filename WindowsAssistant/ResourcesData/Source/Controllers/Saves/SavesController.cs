@@ -1,4 +1,4 @@
-﻿using WindowsAssistant.ResourcesData.Source.Core;
+﻿using WindowsAssistant.ResourcesData.Source.Root;
 using WindowsAssistant.ResourcesData.Source.Data;
 using System.Text.Json;
 using System.IO;

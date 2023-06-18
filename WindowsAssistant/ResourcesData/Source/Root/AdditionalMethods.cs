@@ -1,7 +1,7 @@
 ﻿using System.Diagnostics;
 using System.Net;
 
-namespace WindowsAssistant.ResourcesData.Source.Core
+namespace WindowsAssistant.ResourcesData.Source.Root
 {
 	public class AdditionalMethods
 	{

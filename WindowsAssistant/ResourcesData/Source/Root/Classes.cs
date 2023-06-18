@@ -9,7 +9,7 @@ using WindowsAssistant.ResourcesData.Source.Controllers;
 using WindowsAssistant.ResourcesData.Source.Managers;
 using WindowsAssistant.ResourcesData.Source.Data;
 
-namespace WindowsAssistant.ResourcesData.Source.Core
+namespace WindowsAssistant.ResourcesData.Source.Root
 {
 	public static class Classes
 	{

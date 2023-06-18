@@ -1,5 +1,5 @@
 <div align="center">
-	<img src="WindowsAssistant/ResourcesData/Icons/Application/Icon.ico" />
+	<img src="WindowsAssistant/ResourcesData/Icons/Application/Icon.ico">
 	<h1>Windows Assistant</h1>
 </div>
 
@@ -20,7 +20,7 @@
 ***
 
 <div align="center">
-	<img src="WindowsAssistant/ResourcesData/Gif/Preview.gif" />
+	<img src="WindowsAssistant/ResourcesData/Gif/Preview.gif">
 </div>
 
 ***

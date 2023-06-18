@@ -1,4 +1,4 @@
-﻿using WindowsAssistant.ResourcesData.Source.Core;
+﻿using WindowsAssistant.ResourcesData.Source.Root;
 using System.Threading.Tasks;
 
 namespace WindowsAssistant.ResourcesData.Source.Managers

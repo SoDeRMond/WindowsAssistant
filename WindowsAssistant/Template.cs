@@ -1,4 +1,4 @@
-﻿using WindowsAssistant.ResourcesData.Source.Core;
+﻿using WindowsAssistant.ResourcesData.Source.Root;
 using WindowsAssistant.ResourcesData.Forms;
 using WindowsAssistant.Properties;
 using System.Runtime.InteropServices;

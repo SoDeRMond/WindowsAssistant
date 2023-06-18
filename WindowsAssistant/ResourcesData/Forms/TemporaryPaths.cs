@@ -1,4 +1,4 @@
-﻿using WindowsAssistant.ResourcesData.Source.Core;
+﻿using WindowsAssistant.ResourcesData.Source.Root;
 using System.Collections.Generic;
 using System.Windows.Forms;
 using System.Drawing;

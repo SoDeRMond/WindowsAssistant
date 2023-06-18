@@ -1,6 +1,6 @@
 ﻿using System.Drawing;
 
-namespace WindowsAssistant.ResourcesData.Source.Core
+namespace WindowsAssistant.ResourcesData.Source.Root
 {
 	public class Colors
 	{
