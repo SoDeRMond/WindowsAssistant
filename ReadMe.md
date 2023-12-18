@@ -20,7 +20,7 @@
 ***
 
 <div align="center">
-	<img src="WindowsAssistant/ResourcesData/Gif/Preview.gif">
+	<img src="Preview.gif">
 </div>
 
 ***
