@@ -34,6 +34,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.Button_DeletePath = new Button();
 			this.Panel_Layer_Two = new Panel();
 			this.Button_EditPath = new Button();
+			this.Button_CopyPath = new Button();
 			this.FolderBrowserDialog_Path = new FolderBrowserDialog();
 			this.Panel_Top.SuspendLayout();
 			this.Panel_Path.SuspendLayout();
@@ -134,6 +135,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.ListBox_Paths.Tag = "";
 
 			this.Panel_Right.BackColor = Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(68)))));
+			this.Panel_Right.Controls.Add(this.Button_CopyPath);
 			this.Panel_Right.Controls.Add(this.Button_EditPath);
 			this.Panel_Right.Controls.Add(this.Panel_Layer_Two);
 			this.Panel_Right.Controls.Add(this.Button_DeletePath);
@@ -206,6 +208,18 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.Button_EditPath.TabIndex = 0;
 			this.Button_EditPath.Text = "Edit Path";
 			this.Button_EditPath.Click += new EventHandler(this.Button_EditPath_Click);
+
+			this.Button_CopyPath.Dock = DockStyle.Top;
+			this.Button_CopyPath.FlatAppearance.BorderSize = 0;
+			this.Button_CopyPath.FlatStyle = FlatStyle.Flat;
+			this.Button_CopyPath.Font = new Font("Microsoft Sans Serif", 10F);
+			this.Button_CopyPath.ForeColor = Color.White;
+			this.Button_CopyPath.Location = new Point(0, 195);
+			this.Button_CopyPath.Name = "Button_CopyPath";
+			this.Button_CopyPath.Size = new Size(296, 30);
+			this.Button_CopyPath.TabIndex = 0;
+			this.Button_CopyPath.Text = "Copy Path";
+			this.Button_CopyPath.Click += new EventHandler(this.Button_CopyPath_Click);
 		}
 
 		private Panel Panel_Top;
@@ -222,6 +236,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 		private Button Button_DeletePath;
 		private Panel Panel_Layer_Two;
 		private Button Button_EditPath;
+		private Button Button_CopyPath;
 		private FolderBrowserDialog FolderBrowserDialog_Path;
 	}
 }

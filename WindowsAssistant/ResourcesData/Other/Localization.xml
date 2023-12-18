@@ -359,6 +359,12 @@
 			<russian>Редактировать Путь</russian>
 		</translations>
 	</key>
+	<key name="TemporaryPaths_Button_CopyPath">
+		<translations>
+			<english>Copy Path</english>
+			<russian>Скопировать Путь</russian>
+		</translations>
+	</key>
 	<key name="Settings_Label_SavePath">
 		<translations>
 			<english>Save Path -</english>

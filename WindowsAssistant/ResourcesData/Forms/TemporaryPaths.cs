@@ -100,6 +100,9 @@ namespace WindowsAssistant.ResourcesData.Forms
 		private void Button_EditPath_Click(object Object_Button, EventArgs EventArgs_Click)
 		{ if (ListBox_Paths.SelectedItem != null && TextBox_Path.Text != string.Empty) { Path_Edit(); } }
 
+		private void Button_CopyPath_Click(object Object_Button, EventArgs EventArgs_Click)
+		{ if (ListBox_Paths.Text != string.Empty) { Clipboard.SetText(ListBox_Paths.Text); } }
+
 		private void Form_TemporaryPaths_Load(object Object_Form, EventArgs EventArgs_Load)
 		{ Paths_Refresh(); }
 
