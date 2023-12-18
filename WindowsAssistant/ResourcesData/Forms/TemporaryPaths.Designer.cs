@@ -43,6 +43,8 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.Button_Applications = new Button();
 			this.Panel_Layer_Five = new Panel();
 			this.Button_PinnedTiles = new Button();
+			this.Panel_Layer_Six = new Panel();
+			this.Button_Taskbar = new Button();
 			this.FolderBrowserDialog_Path = new FolderBrowserDialog();
 			this.Panel_Top.SuspendLayout();
 			this.Panel_Path.SuspendLayout();
@@ -109,7 +111,6 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.TextBox_Path.ForeColor = Color.WhiteSmoke;
 			this.TextBox_Path.Location = new Point(51, 0);
 			this.TextBox_Path.Name = "TextBox_Path";
-			this.TextBox_Path.ReadOnly = true;
 			this.TextBox_Path.Size = new Size(699, 20);
 			this.TextBox_Path.TabIndex = 0;
 			this.TextBox_Path.DoubleClick += new EventHandler(this.TextBox_Path_DoubleClick);
@@ -120,7 +121,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.Panel_Left.Location = new Point(0, 28);
 			this.Panel_Left.Name = "Panel_Left";
 			this.Panel_Left.Padding = new Padding(4, 0, 0, 0);
-			this.Panel_Left.Size = new Size(475, 512);
+			this.Panel_Left.Size = new Size(460, 512);
 			this.Panel_Left.TabIndex = 0;
 
 			this.Label_PathsList.BackColor = Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(72)))));
@@ -129,7 +130,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.Label_PathsList.ForeColor = SystemColors.ActiveCaption;
 			this.Label_PathsList.Location = new Point(4, 0);
 			this.Label_PathsList.Name = "Label_PathsList";
-			this.Label_PathsList.Size = new Size(471, 30);
+			this.Label_PathsList.Size = new Size(456, 30);
 			this.Label_PathsList.TabIndex = 0;
 			this.Label_PathsList.Text = "Paths List";
 			this.Label_PathsList.TextAlign = ContentAlignment.MiddleCenter;
@@ -142,7 +143,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.ListBox_Paths.ItemHeight = 16;
 			this.ListBox_Paths.Location = new Point(4, 30);
 			this.ListBox_Paths.Name = "ListBox_Paths";
-			this.ListBox_Paths.Size = new Size(471, 482);
+			this.ListBox_Paths.Size = new Size(456, 482);
 			this.ListBox_Paths.TabIndex = 0;
 			this.ListBox_Paths.Tag = "";
 
@@ -160,7 +161,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.Panel_Right.Location = new Point(475, 28);
 			this.Panel_Right.Name = "Panel_Right";
 			this.Panel_Right.Padding = new Padding(0, 0, 4, 0);
-			this.Panel_Right.Size = new Size(285, 512);
+			this.Panel_Right.Size = new Size(300, 512);
 			this.Panel_Right.TabIndex = 0;
 
 			this.Button_RefreshList.Dock = DockStyle.Top;
@@ -170,7 +171,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.Button_RefreshList.ForeColor = Color.White;
 			this.Button_RefreshList.Location = new Point(0, 0);
 			this.Button_RefreshList.Name = "Button_RefreshList";
-			this.Button_RefreshList.Size = new Size(281, 30);
+			this.Button_RefreshList.Size = new Size(296, 30);
 			this.Button_RefreshList.TabIndex = 0;
 			this.Button_RefreshList.Text = "Refresh List";
 			this.Button_RefreshList.Click += new EventHandler(this.Button_RefreshList_Click);
@@ -178,7 +179,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.Panel_Layer_One.Dock = DockStyle.Top;
 			this.Panel_Layer_One.Location = new Point(0, 30);
 			this.Panel_Layer_One.Name = "Panel_Layer_One";
-			this.Panel_Layer_One.Size = new Size(281, 30);
+			this.Panel_Layer_One.Size = new Size(296, 30);
 			this.Panel_Layer_One.TabIndex = 0;
 
 			this.Button_AddPath.Dock = DockStyle.Top;
@@ -188,7 +189,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.Button_AddPath.ForeColor = Color.White;
 			this.Button_AddPath.Location = new Point(0, 60);
 			this.Button_AddPath.Name = "Button_AddPath";
-			this.Button_AddPath.Size = new Size(281, 30);
+			this.Button_AddPath.Size = new Size(296, 30);
 			this.Button_AddPath.TabIndex = 0;
 			this.Button_AddPath.Text = "Add Path";
 			this.Button_AddPath.Click += new EventHandler(this.Button_AddPath_Click);
@@ -200,7 +201,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.Button_DeletePath.ForeColor = Color.White;
 			this.Button_DeletePath.Location = new Point(0, 90);
 			this.Button_DeletePath.Name = "Button_DeletePath";
-			this.Button_DeletePath.Size = new Size(281, 30);
+			this.Button_DeletePath.Size = new Size(296, 30);
 			this.Button_DeletePath.TabIndex = 0;
 			this.Button_DeletePath.Text = "Delete Path";
 			this.Button_DeletePath.Click += new EventHandler(this.Button_DeletePath_Click);
@@ -208,7 +209,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.Panel_Layer_Two.Dock = DockStyle.Top;
 			this.Panel_Layer_Two.Location = new Point(0, 120);
 			this.Panel_Layer_Two.Name = "Panel_Layer_Two";
-			this.Panel_Layer_Two.Size = new Size(281, 45);
+			this.Panel_Layer_Two.Size = new Size(296, 45);
 			this.Panel_Layer_Two.TabIndex = 0;
 
 			this.Button_EditPath.Dock = DockStyle.Top;
@@ -218,7 +219,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.Button_EditPath.ForeColor = Color.White;
 			this.Button_EditPath.Location = new Point(0, 165);
 			this.Button_EditPath.Name = "Button_EditPath";
-			this.Button_EditPath.Size = new Size(281, 30);
+			this.Button_EditPath.Size = new Size(296, 30);
 			this.Button_EditPath.TabIndex = 0;
 			this.Button_EditPath.Text = "Edit Path";
 			this.Button_EditPath.Click += new EventHandler(this.Button_EditPath_Click);
@@ -309,6 +310,23 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.Button_PinnedTiles.TabIndex = 0;
 			this.Button_PinnedTiles.Text = "Pinned Tiles in Start";
 			this.Button_PinnedTiles.Click += new EventHandler(this.Button_PinnedTiles_Click);
+
+			this.Panel_Layer_Six.Dock = DockStyle.Top;
+			this.Panel_Layer_Six.Location = new Point(3, 109);
+			this.Panel_Layer_Six.Name = "Panel_Layer_Six";
+			this.Panel_Layer_Six.Size = new Size(286, 2);
+			this.Panel_Layer_Six.TabIndex = 0;
+
+			this.Button_Taskbar.Dock = DockStyle.Top;
+			this.Button_Taskbar.FlatAppearance.BorderSize = 0;
+			this.Button_Taskbar.FlatStyle = FlatStyle.Flat;
+			this.Button_Taskbar.Font = new Font("Microsoft Sans Serif", 10F);
+			this.Button_Taskbar.Location = new Point(3, 111);
+			this.Button_Taskbar.Name = "Button_Taskbar";
+			this.Button_Taskbar.Size = new Size(286, 30);
+			this.Button_Taskbar.TabIndex = 0;
+			this.Button_Taskbar.Text = "Taskbar";
+			this.Button_Taskbar.Click += new EventHandler(this.Button_Taskbar_Click);
 		}
 
 		private Panel Panel_Top;
@@ -334,6 +352,8 @@ namespace WindowsAssistant.ResourcesData.Forms
 		private Button Button_Applications;
 		private Panel Panel_Layer_Five;
 		private Button Button_PinnedTiles;
+		private Panel Panel_Layer_Six;
+		private Button Button_Taskbar;
 		private FolderBrowserDialog FolderBrowserDialog_Path;
 	}
 }

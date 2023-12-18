@@ -389,6 +389,12 @@
 			<russian>Закреплённые Плитки в Пуске</russian>
 		</translations>
 	</key>
+	<key name="TemporaryPaths_Button_Taskbar">
+		<translations>
+			<english>Taskbar</english>
+			<russian>Панель Задач</russian>
+		</translations>
+	</key>
 	<key name="Settings_Label_SavePath">
 		<translations>
 			<english>Save Path -</english>
