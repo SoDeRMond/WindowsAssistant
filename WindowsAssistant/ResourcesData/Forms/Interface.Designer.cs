@@ -94,7 +94,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.RadioButton_Delete.Name = "RadioButton_Delete";
 			this.RadioButton_Delete.Padding = new Padding(4, 0, 0, 0);
 			this.RadioButton_Delete.Size = new Size(366, 21);
-			this.RadioButton_Delete.TabIndex = 1;
+			this.RadioButton_Delete.TabIndex = 0;
 			this.RadioButton_Delete.Text = "Delete";
 			this.RadioButton_Delete.Click += new EventHandler(this.RadioButtons_SecondsClock_Click);
 
@@ -102,7 +102,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.Panel_Left_Layer.Location = new Point(4, 72);
 			this.Panel_Left_Layer.Name = "Panel_Left_Layer";
 			this.Panel_Left_Layer.Size = new Size(372, 2);
-			this.Panel_Left_Layer.TabIndex = 1;
+			this.Panel_Left_Layer.TabIndex = 0;
 
 			this.Button_ClearWallpapers.Dock = DockStyle.Top;
 			this.Button_ClearWallpapers.FlatAppearance.BorderSize = 0;
@@ -112,7 +112,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.Button_ClearWallpapers.Location = new Point(4, 74);
 			this.Button_ClearWallpapers.Name = "Button_ClearWallpapers";
 			this.Button_ClearWallpapers.Size = new Size(372, 30);
-			this.Button_ClearWallpapers.TabIndex = 2;
+			this.Button_ClearWallpapers.TabIndex = 0;
 			this.Button_ClearWallpapers.Text = "Clear Wallpapers History";
 			this.Button_ClearWallpapers.Click += new EventHandler(this.Button_ClearWallpapers_Click);
 
@@ -122,7 +122,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.Panel_Right.Name = "Panel_Right";
 			this.Panel_Right.Padding = new Padding(4, 2, 4, 2);
 			this.Panel_Right.Size = new Size(380, 540);
-			this.Panel_Right.TabIndex = 1;
+			this.Panel_Right.TabIndex = 0;
 
 			this.GroupBox_Corrections.Controls.Add(this.Button_IconCache);
 			this.GroupBox_Corrections.Controls.Add(this.Panel_Right_Layer_Two);
@@ -151,7 +151,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.Button_DesktopUpdate.Location = new Point(3, 24);
 			this.Button_DesktopUpdate.Name = "Button_DesktopUpdate";
 			this.Button_DesktopUpdate.Size = new Size(366, 30);
-			this.Button_DesktopUpdate.TabIndex = 1;
+			this.Button_DesktopUpdate.TabIndex = 0;
 			this.Button_DesktopUpdate.Text = "Desktop Update";
 			this.Button_DesktopUpdate.Click += new EventHandler(this.Button_DesktopUpdate_Click);
 
@@ -159,7 +159,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.Panel_Right_Layer_Two.Location = new Point(3, 54);
 			this.Panel_Right_Layer_Two.Name = "Panel_Right_Layer_Two";
 			this.Panel_Right_Layer_Two.Size = new Size(366, 4);
-			this.Panel_Right_Layer_Two.TabIndex = 2;
+			this.Panel_Right_Layer_Two.TabIndex = 0;
 
 			this.Button_IconCache.Dock = DockStyle.Top;
 			this.Button_IconCache.FlatAppearance.BorderSize = 0;
@@ -168,7 +168,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.Button_IconCache.Location = new Point(3, 58);
 			this.Button_IconCache.Name = "Button_IconCache";
 			this.Button_IconCache.Size = new Size(366, 30);
-			this.Button_IconCache.TabIndex = 3;
+			this.Button_IconCache.TabIndex = 0;
 			this.Button_IconCache.Text = "Icon Cache";
 			this.Button_IconCache.Click += new EventHandler(this.Button_IconCache_Click);
 		}

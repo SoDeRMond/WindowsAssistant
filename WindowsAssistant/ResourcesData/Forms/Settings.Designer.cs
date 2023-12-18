@@ -95,7 +95,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.TextBox_SavePath.Name = "TextBox_SavePath";
 			this.TextBox_SavePath.ReadOnly = true;
 			this.TextBox_SavePath.Size = new Size(659, 20);
-			this.TextBox_SavePath.TabIndex = 1;
+			this.TextBox_SavePath.TabIndex = 0;
 			this.TextBox_SavePath.DoubleClick += new EventHandler(this.TextBox_SavePath_DoubleClick);
 
 			this.Panel_Left.Controls.Add(this.Button_DeleteSavedProgramFiles);
@@ -106,7 +106,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.Panel_Left.Name = "Panel_Left";
 			this.Panel_Left.Padding = new Padding(4, 2, 4, 2);
 			this.Panel_Left.Size = new Size(380, 512);
-			this.Panel_Left.TabIndex = 1;
+			this.Panel_Left.TabIndex = 0;
 
 			this.GroupBox_AutoProgramUpdates.Controls.Add(this.RadioButton_Disable);
 			this.GroupBox_AutoProgramUpdates.Controls.Add(this.RadioButton_Enable);
@@ -136,7 +136,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.RadioButton_Disable.Name = "RadioButton_Disable";
 			this.RadioButton_Disable.Padding = new Padding(4, 0, 0, 0);
 			this.RadioButton_Disable.Size = new Size(366, 21);
-			this.RadioButton_Disable.TabIndex = 1;
+			this.RadioButton_Disable.TabIndex = 0;
 			this.RadioButton_Disable.Text = "Disable";
 			this.RadioButton_Disable.Click += new EventHandler(this.RadioButtons_AutoProgramUpdates_Click);
 
@@ -144,7 +144,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.Panel_Layer.Location = new Point(4, 72);
 			this.Panel_Layer.Name = "Panel_Layer";
 			this.Panel_Layer.Size = new Size(372, 2);
-			this.Panel_Layer.TabIndex = 1;
+			this.Panel_Layer.TabIndex = 0;
 
 			this.Button_DeleteSavedProgramFiles.Dock = DockStyle.Top;
 			this.Button_DeleteSavedProgramFiles.FlatAppearance.BorderSize = 0;
@@ -154,7 +154,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.Button_DeleteSavedProgramFiles.Location = new Point(4, 74);
 			this.Button_DeleteSavedProgramFiles.Name = "Button_DeleteSavedProgramFiles";
 			this.Button_DeleteSavedProgramFiles.Size = new Size(372, 30);
-			this.Button_DeleteSavedProgramFiles.TabIndex = 2;
+			this.Button_DeleteSavedProgramFiles.TabIndex = 0;
 			this.Button_DeleteSavedProgramFiles.Text = "Delete Saved Program Files";
 			this.Button_DeleteSavedProgramFiles.Click += new EventHandler(this.Button_DeleteSavedProgramFiles_Click);
 
@@ -163,7 +163,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.Panel_Right.Name = "Panel_Right";
 			this.Panel_Right.Padding = new Padding(4, 2, 4, 2);
 			this.Panel_Right.Size = new Size(380, 512);
-			this.Panel_Right.TabIndex = 2;
+			this.Panel_Right.TabIndex = 0;
 		}
 
 		private Panel Panel_Top;

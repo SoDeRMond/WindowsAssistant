@@ -88,7 +88,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.TextBox_Extension.Location = new Point(88, 0);
 			this.TextBox_Extension.Name = "TextBox_Extension";
 			this.TextBox_Extension.Size = new Size(662, 20);
-			this.TextBox_Extension.TabIndex = 1;
+			this.TextBox_Extension.TabIndex = 0;
 			this.TextBox_Extension.Text = "Without Dot";
 
 			this.Panel_Left.Controls.Add(this.Button_Add);
@@ -97,7 +97,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.Panel_Left.Name = "Panel_Left";
 			this.Panel_Left.Padding = new Padding(4, 2, 4, 2);
 			this.Panel_Left.Size = new Size(380, 512);
-			this.Panel_Left.TabIndex = 1;
+			this.Panel_Left.TabIndex = 0;
 
 			this.Button_Add.Dock = DockStyle.Top;
 			this.Button_Add.FlatAppearance.BorderSize = 0;
@@ -117,7 +117,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.Panel_Right.Name = "Panel_Right";
 			this.Panel_Right.Padding = new Padding(4, 2, 4, 2);
 			this.Panel_Right.Size = new Size(380, 512);
-			this.Panel_Right.TabIndex = 2;
+			this.Panel_Right.TabIndex = 0;
 
 			this.Button_Delete.Dock = DockStyle.Top;
 			this.Button_Delete.FlatAppearance.BorderSize = 0;

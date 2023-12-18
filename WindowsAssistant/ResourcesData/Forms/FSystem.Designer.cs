@@ -96,7 +96,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.RadioButton_PowerScheme_Lock.Name = "RadioButton_PowerScheme_Lock";
 			this.RadioButton_PowerScheme_Lock.Padding = new Padding(4, 0, 0, 0);
 			this.RadioButton_PowerScheme_Lock.Size = new Size(366, 21);
-			this.RadioButton_PowerScheme_Lock.TabIndex = 1;
+			this.RadioButton_PowerScheme_Lock.TabIndex = 0;
 			this.RadioButton_PowerScheme_Lock.Text = "Lock and Deactivate";
 			this.RadioButton_PowerScheme_Lock.Click += new EventHandler(this.RadioButtons_PowerScheme_Click);
 
@@ -104,7 +104,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.Panel_Layer.Location = new Point(4, 72);
 			this.Panel_Layer.Name = "Panel_Layer";
 			this.Panel_Layer.Size = new Size(372, 4);
-			this.Panel_Layer.TabIndex = 1;
+			this.Panel_Layer.TabIndex = 0;
 
 			this.GroupBox_WindowsUpdates.Controls.Add(this.RadioButton_WindowsUpdates_Disable);
 			this.GroupBox_WindowsUpdates.Controls.Add(this.RadioButton_WindowsUpdates_Enable);
@@ -114,7 +114,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.GroupBox_WindowsUpdates.Location = new Point(4, 76);
 			this.GroupBox_WindowsUpdates.Name = "GroupBox_WindowsUpdates";
 			this.GroupBox_WindowsUpdates.Size = new Size(372, 70);
-			this.GroupBox_WindowsUpdates.TabIndex = 2;
+			this.GroupBox_WindowsUpdates.TabIndex = 0;
 			this.GroupBox_WindowsUpdates.TabStop = false;
 			this.GroupBox_WindowsUpdates.Text = "Windows Updates";
 
@@ -134,7 +134,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.RadioButton_WindowsUpdates_Disable.Name = "RadioButton_WindowsUpdates_Disable";
 			this.RadioButton_WindowsUpdates_Disable.Padding = new Padding(4, 0, 0, 0);
 			this.RadioButton_WindowsUpdates_Disable.Size = new Size(366, 21);
-			this.RadioButton_WindowsUpdates_Disable.TabIndex = 1;
+			this.RadioButton_WindowsUpdates_Disable.TabIndex = 0;
 			this.RadioButton_WindowsUpdates_Disable.Text = "Disable";
 			this.RadioButton_WindowsUpdates_Disable.Click += new EventHandler(this.RadioButtons_WindowsUpdates_Click);
 
@@ -144,7 +144,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.Panel_Right.Name = "Panel_Right";
 			this.Panel_Right.Padding = new Padding(4, 2, 4, 2);
 			this.Panel_Right.Size = new Size(380, 540);
-			this.Panel_Right.TabIndex = 1;
+			this.Panel_Right.TabIndex = 0;
 
 			this.GroupBox_AntiCrash.Controls.Add(this.RadioButton_AntiCrash_Disable);
 			this.GroupBox_AntiCrash.Controls.Add(this.RadioButton_AntiCrash_Enable);
@@ -174,7 +174,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.RadioButton_AntiCrash_Disable.Name = "RadioButton_AntiCrash_Disable";
 			this.RadioButton_AntiCrash_Disable.Padding = new Padding(4, 0, 0, 0);
 			this.RadioButton_AntiCrash_Disable.Size = new Size(366, 21);
-			this.RadioButton_AntiCrash_Disable.TabIndex = 1;
+			this.RadioButton_AntiCrash_Disable.TabIndex = 0;
 			this.RadioButton_AntiCrash_Disable.Text = "Disable";
 			this.RadioButton_AntiCrash_Disable.Click += new EventHandler(this.RadioButtons_AntiCrash_Click);
 		}

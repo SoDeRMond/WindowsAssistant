@@ -89,7 +89,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.RadioButton_ControlPanel_Delete.Name = "RadioButton_ControlPanel_Delete";
 			this.RadioButton_ControlPanel_Delete.Padding = new Padding(4, 0, 0, 0);
 			this.RadioButton_ControlPanel_Delete.Size = new Size(366, 21);
-			this.RadioButton_ControlPanel_Delete.TabIndex = 1;
+			this.RadioButton_ControlPanel_Delete.TabIndex = 0;
 			this.RadioButton_ControlPanel_Delete.Text = "Delete";
 			this.RadioButton_ControlPanel_Delete.Click += new EventHandler(this.RadioButtons_ControlPanel_Click);
 
@@ -97,7 +97,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.Panel_Layer.Location = new Point(4, 72);
 			this.Panel_Layer.Name = "Panel_Layer";
 			this.Panel_Layer.Size = new Size(372, 4);
-			this.Panel_Layer.TabIndex = 1;
+			this.Panel_Layer.TabIndex = 0;
 
 			this.GroupBox_RegistryEditor.Controls.Add(this.RadioButton_RegistryEditor_Delete);
 			this.GroupBox_RegistryEditor.Controls.Add(this.RadioButton_RegistryEditor_Add);
@@ -107,7 +107,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.GroupBox_RegistryEditor.Location = new Point(4, 76);
 			this.GroupBox_RegistryEditor.Name = "GroupBox_RegistryEditor";
 			this.GroupBox_RegistryEditor.Size = new Size(372, 70);
-			this.GroupBox_RegistryEditor.TabIndex = 2;
+			this.GroupBox_RegistryEditor.TabIndex = 0;
 			this.GroupBox_RegistryEditor.TabStop = false;
 			this.GroupBox_RegistryEditor.Text = "Registry Editor";
 
@@ -127,7 +127,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.RadioButton_RegistryEditor_Delete.Name = "RadioButton_RegistryEditor_Delete";
 			this.RadioButton_RegistryEditor_Delete.Padding = new Padding(4, 0, 0, 0);
 			this.RadioButton_RegistryEditor_Delete.Size = new Size(366, 21);
-			this.RadioButton_RegistryEditor_Delete.TabIndex = 1;
+			this.RadioButton_RegistryEditor_Delete.TabIndex = 0;
 			this.RadioButton_RegistryEditor_Delete.Text = "Delete";
 			this.RadioButton_RegistryEditor_Delete.Click += new EventHandler(this.RadioButtons_RegistryEditor_Click);
 
@@ -136,7 +136,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.Panel_Right.Name = "Panel_Right";
 			this.Panel_Right.Padding = new Padding(4, 2, 4, 2);
 			this.Panel_Right.Size = new Size(380, 540);
-			this.Panel_Right.TabIndex = 1;
+			this.Panel_Right.TabIndex = 0;
 		}
 
 		private Panel Panel_Left;

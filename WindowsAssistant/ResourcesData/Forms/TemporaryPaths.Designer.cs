@@ -98,7 +98,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.TextBox_Path.Name = "TextBox_Path";
 			this.TextBox_Path.ReadOnly = true;
 			this.TextBox_Path.Size = new Size(699, 20);
-			this.TextBox_Path.TabIndex = 1;
+			this.TextBox_Path.TabIndex = 0;
 			this.TextBox_Path.DoubleClick += new EventHandler(this.TextBox_Path_DoubleClick);
 
 			this.Panel_Left.Controls.Add(this.ListBox_Paths);
@@ -108,7 +108,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.Panel_Left.Name = "Panel_Left";
 			this.Panel_Left.Padding = new Padding(4, 0, 0, 0);
 			this.Panel_Left.Size = new Size(475, 512);
-			this.Panel_Left.TabIndex = 1;
+			this.Panel_Left.TabIndex = 0;
 
 			this.Label_PathsList.BackColor = Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(72)))));
 			this.Label_PathsList.Dock = DockStyle.Top;
@@ -130,7 +130,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.ListBox_Paths.Location = new Point(4, 30);
 			this.ListBox_Paths.Name = "ListBox_Paths";
 			this.ListBox_Paths.Size = new Size(471, 482);
-			this.ListBox_Paths.TabIndex = 1;
+			this.ListBox_Paths.TabIndex = 0;
 			this.ListBox_Paths.Tag = "";
 
 			this.Panel_Right.BackColor = Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(68)))));
@@ -145,7 +145,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.Panel_Right.Name = "Panel_Right";
 			this.Panel_Right.Padding = new Padding(0, 0, 4, 0);
 			this.Panel_Right.Size = new Size(285, 512);
-			this.Panel_Right.TabIndex = 2;
+			this.Panel_Right.TabIndex = 0;
 
 			this.Button_RefreshList.Dock = DockStyle.Top;
 			this.Button_RefreshList.FlatAppearance.BorderSize = 0;
@@ -163,7 +163,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.Panel_Layer_One.Location = new Point(0, 30);
 			this.Panel_Layer_One.Name = "Panel_Layer_One";
 			this.Panel_Layer_One.Size = new Size(281, 30);
-			this.Panel_Layer_One.TabIndex = 1;
+			this.Panel_Layer_One.TabIndex = 0;
 
 			this.Button_AddPath.Dock = DockStyle.Top;
 			this.Button_AddPath.FlatAppearance.BorderSize = 0;
@@ -173,7 +173,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.Button_AddPath.Location = new Point(0, 60);
 			this.Button_AddPath.Name = "Button_AddPath";
 			this.Button_AddPath.Size = new Size(281, 30);
-			this.Button_AddPath.TabIndex = 2;
+			this.Button_AddPath.TabIndex = 0;
 			this.Button_AddPath.Text = "Add Path";
 			this.Button_AddPath.Click += new EventHandler(this.Button_AddPath_Click);
 
@@ -185,7 +185,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.Button_DeletePath.Location = new Point(0, 90);
 			this.Button_DeletePath.Name = "Button_DeletePath";
 			this.Button_DeletePath.Size = new Size(281, 30);
-			this.Button_DeletePath.TabIndex = 3;
+			this.Button_DeletePath.TabIndex = 0;
 			this.Button_DeletePath.Text = "Delete Path";
 			this.Button_DeletePath.Click += new EventHandler(this.Button_DeletePath_Click);
 
@@ -193,7 +193,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.Panel_Layer_Two.Location = new Point(0, 120);
 			this.Panel_Layer_Two.Name = "Panel_Layer_Two";
 			this.Panel_Layer_Two.Size = new Size(281, 45);
-			this.Panel_Layer_Two.TabIndex = 4;
+			this.Panel_Layer_Two.TabIndex = 0;
 
 			this.Button_EditPath.Dock = DockStyle.Top;
 			this.Button_EditPath.FlatAppearance.BorderSize = 0;
@@ -203,7 +203,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.Button_EditPath.Location = new Point(0, 165);
 			this.Button_EditPath.Name = "Button_EditPath";
 			this.Button_EditPath.Size = new Size(281, 30);
-			this.Button_EditPath.TabIndex = 5;
+			this.Button_EditPath.TabIndex = 0;
 			this.Button_EditPath.Text = "Edit Path";
 			this.Button_EditPath.Click += new EventHandler(this.Button_EditPath_Click);
 		}
