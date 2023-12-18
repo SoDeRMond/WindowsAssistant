@@ -371,6 +371,12 @@
 			<russian>Быстрый Доступ</russian>
 		</translations>
 	</key>
+	<key name="TemporaryPaths_CheckBox_TemporaryPaths">
+		<translations>
+			<english>Also Add to Temporary Paths</english>
+			<russian>Также Добавить во Временные Пути</russian>
+		</translations>
+	</key>
 	<key name="Settings_Label_SavePath">
 		<translations>
 			<english>Save Path -</english>

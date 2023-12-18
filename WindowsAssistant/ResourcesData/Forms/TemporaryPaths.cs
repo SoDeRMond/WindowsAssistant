@@ -14,6 +14,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 
 
 		public readonly Dictionary<string, string> Dictionary_Paths = new Dictionary<string, string>();
+		private bool Bool_TemporaryPaths = false;
 
 
 		public TemporaryPaths()
@@ -102,6 +103,9 @@ namespace WindowsAssistant.ResourcesData.Forms
 
 		private void Button_CopyPath_Click(object Object_Button, EventArgs EventArgs_Click)
 		{ if (ListBox_Paths.Text != string.Empty) { Clipboard.SetText(ListBox_Paths.Text); } }
+
+		private void CheckBox_TemporaryPaths_Click(object Object_CheckBox, EventArgs EventArgs_Click)
+		{ Bool_TemporaryPaths = ((CheckBox)Object_CheckBox).Checked; }
 
 		private void Form_TemporaryPaths_Load(object Object_Form, EventArgs EventArgs_Load)
 		{ Paths_Refresh(); }

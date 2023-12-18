@@ -38,6 +38,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.Panel_Layer_Three = new Panel();
 			this.Panel_QuickAccess = new Panel();
 			this.GroupBox_QuickAccess = new GroupBox();
+			this.CheckBox_TemporaryPaths = new CheckBox();
 			this.FolderBrowserDialog_Path = new FolderBrowserDialog();
 			this.Panel_Top.SuspendLayout();
 			this.Panel_Path.SuspendLayout();
@@ -260,6 +261,16 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.GroupBox_QuickAccess.TabIndex = 0;
 			this.GroupBox_QuickAccess.TabStop = false;
 			this.GroupBox_QuickAccess.Text = "Quick Access";
+
+			this.CheckBox_TemporaryPaths.Dock = DockStyle.Top;
+			this.CheckBox_TemporaryPaths.Font = new Font("Microsoft Sans Serif", 10F);
+			this.CheckBox_TemporaryPaths.Location = new Point(3, 22);
+			this.CheckBox_TemporaryPaths.Name = "CheckBox_TemporaryPaths";
+			this.CheckBox_TemporaryPaths.Padding = new Padding(4, 2, 0, 0);
+			this.CheckBox_TemporaryPaths.Size = new Size(286, 23);
+			this.CheckBox_TemporaryPaths.TabIndex = 0;
+			this.CheckBox_TemporaryPaths.Text = "Also Add to Temporary Paths";
+			this.CheckBox_TemporaryPaths.Click += new EventHandler(this.CheckBox_TemporaryPaths_Click);
 		}
 
 		private Panel Panel_Top;
@@ -280,6 +291,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 		private Panel Panel_Layer_Three;
 		private Panel Panel_QuickAccess;
 		private GroupBox GroupBox_QuickAccess;
+		private CheckBox CheckBox_TemporaryPaths;
 		private FolderBrowserDialog FolderBrowserDialog_Path;
 	}
 }
