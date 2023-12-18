@@ -32,9 +32,6 @@
 		- Update Status Information
 		- Change Log
 		- Button to Download and Run the Latest Version
-	- Bottom
-		- GitHub Link
-		- Copyright Information
 - System
 	- "Ultimate Performance" Power Scheme
 	- Windows Updates
