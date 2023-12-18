@@ -1,12 +1,12 @@
 <div align="center">
-	<img src="WindowsAssistant/ResourcesData/Icons/Application/Icon.ico">
+	<img src="WindowsAssistant/ResourcesData/Icons/Application/Icon.ico" alt="Icon">
 	<h1>Windows Assistant</h1>
 </div>
 
 <div align="center">
-	<img src="https://img.shields.io/badge/.NET Framework-4.8-blue?style=for-the-badge">
-	<img src="https://img.shields.io/badge/Windows-10-darkorange?style=for-the-badge">
-	<img src="https://img.shields.io/badge/License-GPL--3.0-orange?style=for-the-badge">
+	<img src="https://img.shields.io/badge/.NET Framework-4.8-blue?style=for-the-badge" alt=".NET Framework 4.8">
+	<img src="https://img.shields.io/badge/Windows-10-darkorange?style=for-the-badge" alt="Windows 10">
+	<img src="https://img.shields.io/badge/License-GPL--3.0-orange?style=for-the-badge" alt="License GPL-3.0">
 </div>
 
 <br>
@@ -17,13 +17,17 @@
 	<a href="#-license">License</a>
 </div>
 
+
 ***
+
 
 <div align="center">
-	<img src="Preview.gif">
+	<img src="Preview.gif" alt="Preview">
 </div>
 
+
 ***
+
 
 ## ♦ Functions
 
@@ -54,13 +58,21 @@
 	- Button to Add the Path
 	- Button to Delete the Path
 	- Button to Edit the Path
+	- Button to Copy the Path
+	- Quick Access
+		- Checkbox to Add to Temporary Paths
+		- Button to Open the "Applications in Start" Folder
+		- Button to Open the "Pinned Tiles in Start" Folder
+		- Button to Open the "Taskbar" Folder
 - Settings
 	- Save Path - <b>Double-Click to Change</b>
 	- Automatic Program Updates
 	- Button to Deleting Saved Program Files
 - Button to Switching Languages
 
+
 ***
+
 
 ## ♦ Downloading
 
@@ -68,7 +80,9 @@
 <br>• Extract the Archive to Your Desktop
 <br>• Run Windows Assistant.exe
 
+
 ***
+
 
 ## ♦ License
 
