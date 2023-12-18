@@ -95,7 +95,8 @@ namespace WindowsAssistant
 			Form_Opening.Show();
 
 			Label_Title.ForeColor = Color_Form;
-			Label_Title.Text = Classes.Class_LocalizationManager.Translation_Get(Form_Opening.Text, Classes.Class_SavedData.String_Language);
+			Label_Title.Text = Classes.Class_LocalizationManager.Translation_Get
+				(Form_Opening.Text.Replace(" ", string.Empty).Replace("System", "FSystem"), Classes.Class_SavedData.String_Language);
 		}
 
 		private void Home_Open()
