@@ -35,11 +35,16 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.Panel_Layer_Two = new Panel();
 			this.Button_EditPath = new Button();
 			this.Button_CopyPath = new Button();
+			this.Panel_Layer_Three = new Panel();
+			this.Panel_QuickAccess = new Panel();
+			this.GroupBox_QuickAccess = new GroupBox();
 			this.FolderBrowserDialog_Path = new FolderBrowserDialog();
 			this.Panel_Top.SuspendLayout();
 			this.Panel_Path.SuspendLayout();
 			this.Panel_Left.SuspendLayout();
 			this.Panel_Right.SuspendLayout();
+			this.Panel_QuickAccess.SuspendLayout();
+			this.GroupBox_QuickAccess.SuspendLayout();
 			this.SuspendLayout();
 
 			this.AutoScaleDimensions = new SizeF(6F, 13F);
@@ -60,6 +65,8 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.Panel_Path.PerformLayout();
 			this.Panel_Left.ResumeLayout(false);
 			this.Panel_Right.ResumeLayout(false);
+			this.Panel_QuickAccess.ResumeLayout(false);
+			this.GroupBox_QuickAccess.ResumeLayout(false);
 			this.ResumeLayout(false);
 
 			this.Panel_Top.Controls.Add(this.Panel_Path);
@@ -135,6 +142,8 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.ListBox_Paths.Tag = "";
 
 			this.Panel_Right.BackColor = Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(68)))));
+			this.Panel_Right.Controls.Add(this.Panel_QuickAccess);
+			this.Panel_Right.Controls.Add(this.Panel_Layer_Three);
 			this.Panel_Right.Controls.Add(this.Button_CopyPath);
 			this.Panel_Right.Controls.Add(this.Button_EditPath);
 			this.Panel_Right.Controls.Add(this.Panel_Layer_Two);
@@ -220,6 +229,37 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.Button_CopyPath.TabIndex = 0;
 			this.Button_CopyPath.Text = "Copy Path";
 			this.Button_CopyPath.Click += new EventHandler(this.Button_CopyPath_Click);
+
+			this.Panel_Layer_Three.Dock = DockStyle.Top;
+			this.Panel_Layer_Three.Location = new Point(0, 195);
+			this.Panel_Layer_Three.Name = "Panel_Layer_Three";
+			this.Panel_Layer_Three.Size = new Size(296, 60);
+			this.Panel_Layer_Three.TabIndex = 0;
+
+			this.Panel_QuickAccess.Controls.Add(this.GroupBox_QuickAccess);
+			this.Panel_QuickAccess.Dock = DockStyle.Top;
+			this.Panel_QuickAccess.Location = new Point(0, 275);
+			this.Panel_QuickAccess.Name = "Panel_QuickAccess";
+			this.Panel_QuickAccess.Padding = new Padding(4, 0, 0, 0);
+			this.Panel_QuickAccess.Size = new Size(296, 145);
+			this.Panel_QuickAccess.TabIndex = 0;
+
+			this.GroupBox_QuickAccess.Controls.Add(this.Button_Taskbar);
+			this.GroupBox_QuickAccess.Controls.Add(this.Panel_Layer_Six);
+			this.GroupBox_QuickAccess.Controls.Add(this.Button_PinnedTiles);
+			this.GroupBox_QuickAccess.Controls.Add(this.Panel_Layer_Five);
+			this.GroupBox_QuickAccess.Controls.Add(this.Button_Applications);
+			this.GroupBox_QuickAccess.Controls.Add(this.Panel_Layer_Four);
+			this.GroupBox_QuickAccess.Controls.Add(this.CheckBox_TemporaryPaths);
+			this.GroupBox_QuickAccess.Dock = DockStyle.Fill;
+			this.GroupBox_QuickAccess.Font = new Font("Microsoft Sans Serif", 12F);
+			this.GroupBox_QuickAccess.ForeColor = Color.White;
+			this.GroupBox_QuickAccess.Location = new Point(4, 0);
+			this.GroupBox_QuickAccess.Name = "GroupBox_QuickAccess";
+			this.GroupBox_QuickAccess.Size = new Size(292, 145);
+			this.GroupBox_QuickAccess.TabIndex = 0;
+			this.GroupBox_QuickAccess.TabStop = false;
+			this.GroupBox_QuickAccess.Text = "Quick Access";
 		}
 
 		private Panel Panel_Top;
@@ -237,6 +277,9 @@ namespace WindowsAssistant.ResourcesData.Forms
 		private Panel Panel_Layer_Two;
 		private Button Button_EditPath;
 		private Button Button_CopyPath;
+		private Panel Panel_Layer_Three;
+		private Panel Panel_QuickAccess;
+		private GroupBox GroupBox_QuickAccess;
 		private FolderBrowserDialog FolderBrowserDialog_Path;
 	}
 }

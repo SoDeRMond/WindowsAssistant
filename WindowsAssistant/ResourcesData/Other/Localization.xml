@@ -365,6 +365,12 @@
 			<russian>Скопировать Путь</russian>
 		</translations>
 	</key>
+	<key name="TemporaryPaths_GroupBox_QuickAccess">
+		<translations>
+			<english>Quick Access</english>
+			<russian>Быстрый Доступ</russian>
+		</translations>
+	</key>
 	<key name="Settings_Label_SavePath">
 		<translations>
 			<english>Save Path -</english>
