@@ -55,35 +55,34 @@ namespace WindowsAssistant.ResourcesData.Forms
 			Classes.Class_AdditionalMethods.Explorer_Restart();
 		}
 
-		private void Path_Add()
+		private void Path_Add(string String_Path)
 		{
-			if (TextBox_Path.Text != string.Empty)
-			{ Dictionary_Paths.Add($"url{Dictionary_Paths.Keys.Count + 1}", TextBox_Path.Text); }
+			Dictionary_Paths.Add($"url{Dictionary_Paths.Keys.Count + 1}", String_Path);
+			TypedPath_Refresh();
 		}
 
 		private void Path_Delete()
 		{
-			if (ListBox_Paths.SelectedItem != null)
+			int Int_RemoveKeyIndex = new List<string>(Dictionary_Paths.Keys).IndexOf($"url{ListBox_Paths.SelectedIndex + 1}");
+			Dictionary_Paths.Remove($"url{ListBox_Paths.SelectedIndex + 1}");
+
+			for (int Int_KeyIndex = Int_RemoveKeyIndex; Int_KeyIndex < Dictionary_Paths.Keys.Count; Int_KeyIndex++)
 			{
-				int Int_RemoveKeyIndex = new List<string>(Dictionary_Paths.Keys).IndexOf($"url{ListBox_Paths.SelectedIndex + 1}");
-				Dictionary_Paths.Remove($"url{ListBox_Paths.SelectedIndex + 1}");
+				string String_OldKey = new List<string>(Dictionary_Paths.Keys)[Int_KeyIndex];
+				string String_NewValue = Dictionary_Paths[String_OldKey];
+				string String_NewKey = $"url{Int_KeyIndex + 1}";
 
-				for (int Int_KeyIndex = Int_RemoveKeyIndex; Int_KeyIndex < Dictionary_Paths.Keys.Count; Int_KeyIndex++)
-				{
-					string String_OldKey = new List<string>(Dictionary_Paths.Keys)[Int_KeyIndex];
-					string String_NewValue = Dictionary_Paths[String_OldKey];
-					string String_NewKey = $"url{Int_KeyIndex + 1}";
-
-					Dictionary_Paths.Remove(String_OldKey);
-					Dictionary_Paths.Add(String_NewKey, String_NewValue);
-				}
+				Dictionary_Paths.Remove(String_OldKey);
+				Dictionary_Paths.Add(String_NewKey, String_NewValue);
 			}
+
+			TypedPath_Refresh();
 		}
 
 		private void Path_Edit()
 		{
-			if (ListBox_Paths.SelectedItem != null && TextBox_Path.Text != string.Empty)
-			{ Dictionary_Paths[$"url{ListBox_Paths.SelectedIndex + 1}"] = TextBox_Path.Text; }
+			Dictionary_Paths[$"url{ListBox_Paths.SelectedIndex + 1}"] = TextBox_Path.Text;
+			TypedPath_Refresh();
 		}
 
 		private void TextBox_Path_DoubleClick(object Object_TextBox, EventArgs EventArgs_DoubleClick)
@@ -93,22 +92,13 @@ namespace WindowsAssistant.ResourcesData.Forms
 		{ Paths_Refresh(); }
 
 		private void Button_AddPath_Click(object Object_Button, EventArgs EventArgs_Click)
-		{
-			Path_Add();
-			TypedPath_Refresh();
-		}
+		{ if (TextBox_Path.Text != string.Empty) { Path_Add(TextBox_Path.Text); } }
 
 		private void Button_DeletePath_Click(object Object_Button, EventArgs EventArgs_Click)
-		{
-			Path_Delete();
-			TypedPath_Refresh();
-		}
+		{ if (ListBox_Paths.SelectedItem != null) { Path_Delete(); } }
 
 		private void Button_EditPath_Click(object Object_Button, EventArgs EventArgs_Click)
-		{
-			Path_Edit();
-			TypedPath_Refresh();
-		}
+		{ if (ListBox_Paths.SelectedItem != null && TextBox_Path.Text != string.Empty) { Path_Edit(); } }
 
 		private void Form_TemporaryPaths_Load(object Object_Form, EventArgs EventArgs_Load)
 		{ Paths_Refresh(); }
