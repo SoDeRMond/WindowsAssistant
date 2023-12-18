@@ -383,6 +383,12 @@
 			<russian>Приложения в Пуске</russian>
 		</translations>
 	</key>
+	<key name="TemporaryPaths_Button_PinnedTiles">
+		<translations>
+			<english>Pinned Tiles in Start</english>
+			<russian>Закреплённые Плитки в Пуске</russian>
+		</translations>
+	</key>
 	<key name="Settings_Label_SavePath">
 		<translations>
 			<english>Save Path -</english>

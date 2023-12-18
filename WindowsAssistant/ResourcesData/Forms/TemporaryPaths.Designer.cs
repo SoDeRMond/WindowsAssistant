@@ -41,6 +41,8 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.CheckBox_TemporaryPaths = new CheckBox();
 			this.Panel_Layer_Four = new Panel();
 			this.Button_Applications = new Button();
+			this.Panel_Layer_Five = new Panel();
+			this.Button_PinnedTiles = new Button();
 			this.FolderBrowserDialog_Path = new FolderBrowserDialog();
 			this.Panel_Top.SuspendLayout();
 			this.Panel_Path.SuspendLayout();
@@ -290,6 +292,23 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.Button_Applications.TabIndex = 0;
 			this.Button_Applications.Text = "Applications in Start";
 			this.Button_Applications.Click += new EventHandler(this.Button_Applications_Click);
+
+			this.Panel_Layer_Five.Dock = DockStyle.Top;
+			this.Panel_Layer_Five.Location = new Point(3, 77);
+			this.Panel_Layer_Five.Name = "Panel_Layer_Five";
+			this.Panel_Layer_Five.Size = new Size(286, 2);
+			this.Panel_Layer_Five.TabIndex = 0;
+
+			this.Button_PinnedTiles.Dock = DockStyle.Top;
+			this.Button_PinnedTiles.FlatAppearance.BorderSize = 0;
+			this.Button_PinnedTiles.FlatStyle = FlatStyle.Flat;
+			this.Button_PinnedTiles.Font = new Font("Microsoft Sans Serif", 10F);
+			this.Button_PinnedTiles.Location = new Point(3, 79);
+			this.Button_PinnedTiles.Name = "Button_PinnedTiles";
+			this.Button_PinnedTiles.Size = new Size(286, 30);
+			this.Button_PinnedTiles.TabIndex = 0;
+			this.Button_PinnedTiles.Text = "Pinned Tiles in Start";
+			this.Button_PinnedTiles.Click += new EventHandler(this.Button_PinnedTiles_Click);
 		}
 
 		private Panel Panel_Top;
@@ -313,6 +332,8 @@ namespace WindowsAssistant.ResourcesData.Forms
 		private CheckBox CheckBox_TemporaryPaths;
 		private Panel Panel_Layer_Four;
 		private Button Button_Applications;
+		private Panel Panel_Layer_Five;
+		private Button Button_PinnedTiles;
 		private FolderBrowserDialog FolderBrowserDialog_Path;
 	}
 }

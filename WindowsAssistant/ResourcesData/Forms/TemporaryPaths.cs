@@ -10,8 +10,11 @@ namespace WindowsAssistant.ResourcesData.Forms
 {
 	public partial class TemporaryPaths : Form
 	{
+		private static readonly string _Roaming = Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData);
+
 		private readonly string _TypedPaths = Path.Combine("SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\TypedPaths");
 		private readonly string _Applications = Path.Combine("C:\\ProgramData\\Microsoft\\Windows\\Start Menu");
+		private readonly string _PinnedTiles = Path.Combine(_Roaming, "Microsoft\\Windows\\Start Menu");
 
 		public readonly Dictionary<string, string> Dictionary_Paths = new Dictionary<string, string>();
 		private bool Bool_TemporaryPaths = false;
@@ -117,6 +120,9 @@ namespace WindowsAssistant.ResourcesData.Forms
 
 		private void Button_Applications_Click(object Object_Button, EventArgs EventArgs_Click)
 		{ Path_Open(_Applications); }
+
+		private void Button_PinnedTiles_Click(object Object_Button, EventArgs EventArgs_Click)
+		{ Path_Open(_PinnedTiles); }
 
 		private void Form_TemporaryPaths_Load(object Object_Form, EventArgs EventArgs_Load)
 		{ Paths_Refresh(); }
