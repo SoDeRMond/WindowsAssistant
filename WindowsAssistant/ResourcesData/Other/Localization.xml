@@ -377,6 +377,12 @@
 			<russian>Также Добавить во Временные Пути</russian>
 		</translations>
 	</key>
+	<key name="TemporaryPaths_Button_Applications">
+		<translations>
+			<english>Applications in Start</english>
+			<russian>Приложения в Пуске</russian>
+		</translations>
+	</key>
 	<key name="Settings_Label_SavePath">
 		<translations>
 			<english>Save Path -</english>

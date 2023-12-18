@@ -11,7 +11,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 	public partial class TemporaryPaths : Form
 	{
 		private readonly string _TypedPaths = Path.Combine("SOFTWARE\\Microsoft\\Windows\\CurrentVersion\\Explorer\\TypedPaths");
-
+		private readonly string _Applications = Path.Combine("C:\\ProgramData\\Microsoft\\Windows\\Start Menu");
 
 		public readonly Dictionary<string, string> Dictionary_Paths = new Dictionary<string, string>();
 		private bool Bool_TemporaryPaths = false;
@@ -86,6 +86,14 @@ namespace WindowsAssistant.ResourcesData.Forms
 			TypedPath_Refresh();
 		}
 
+		private void Path_Open(string String_Path)
+		{
+			if (Bool_TemporaryPaths == true)
+			{ Path_Add(String_Path); }
+
+			Classes.Class_AdditionalMethods.Process_Start("Explorer.exe", String_Path);
+		}
+
 		private void TextBox_Path_DoubleClick(object Object_TextBox, EventArgs EventArgs_DoubleClick)
 		{ Path_ShowDialog(); }
 
@@ -106,6 +114,9 @@ namespace WindowsAssistant.ResourcesData.Forms
 
 		private void CheckBox_TemporaryPaths_Click(object Object_CheckBox, EventArgs EventArgs_Click)
 		{ Bool_TemporaryPaths = ((CheckBox)Object_CheckBox).Checked; }
+
+		private void Button_Applications_Click(object Object_Button, EventArgs EventArgs_Click)
+		{ Path_Open(_Applications); }
 
 		private void Form_TemporaryPaths_Load(object Object_Form, EventArgs EventArgs_Load)
 		{ Paths_Refresh(); }

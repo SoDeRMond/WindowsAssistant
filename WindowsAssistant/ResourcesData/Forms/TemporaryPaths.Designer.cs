@@ -39,6 +39,8 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.Panel_QuickAccess = new Panel();
 			this.GroupBox_QuickAccess = new GroupBox();
 			this.CheckBox_TemporaryPaths = new CheckBox();
+			this.Panel_Layer_Four = new Panel();
+			this.Button_Applications = new Button();
 			this.FolderBrowserDialog_Path = new FolderBrowserDialog();
 			this.Panel_Top.SuspendLayout();
 			this.Panel_Path.SuspendLayout();
@@ -271,6 +273,23 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.CheckBox_TemporaryPaths.TabIndex = 0;
 			this.CheckBox_TemporaryPaths.Text = "Also Add to Temporary Paths";
 			this.CheckBox_TemporaryPaths.Click += new EventHandler(this.CheckBox_TemporaryPaths_Click);
+
+			this.Panel_Layer_Four.Dock = DockStyle.Top;
+			this.Panel_Layer_Four.Location = new Point(3, 45);
+			this.Panel_Layer_Four.Name = "Panel_Layer_Four";
+			this.Panel_Layer_Four.Size = new Size(286, 2);
+			this.Panel_Layer_Four.TabIndex = 0;
+
+			this.Button_Applications.Dock = DockStyle.Top;
+			this.Button_Applications.FlatAppearance.BorderSize = 0;
+			this.Button_Applications.FlatStyle = FlatStyle.Flat;
+			this.Button_Applications.Font = new Font("Microsoft Sans Serif", 10F);
+			this.Button_Applications.Location = new Point(3, 47);
+			this.Button_Applications.Name = "Button_Applications";
+			this.Button_Applications.Size = new Size(286, 30);
+			this.Button_Applications.TabIndex = 0;
+			this.Button_Applications.Text = "Applications in Start";
+			this.Button_Applications.Click += new EventHandler(this.Button_Applications_Click);
 		}
 
 		private Panel Panel_Top;
@@ -292,6 +311,8 @@ namespace WindowsAssistant.ResourcesData.Forms
 		private Panel Panel_QuickAccess;
 		private GroupBox GroupBox_QuickAccess;
 		private CheckBox CheckBox_TemporaryPaths;
+		private Panel Panel_Layer_Four;
+		private Button Button_Applications;
 		private FolderBrowserDialog FolderBrowserDialog_Path;
 	}
 }
