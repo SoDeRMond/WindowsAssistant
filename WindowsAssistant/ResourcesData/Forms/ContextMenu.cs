@@ -13,16 +13,16 @@ namespace WindowsAssistant.ResourcesData.Forms
 		private void UI_Refresh()
 		{
 			if (Classes.Class_SavedData.Int_ControlPanel == 0) { RadioButton_ControlPanel_Add.Checked = true; }
-			else { RadioButton_ControlPanel_Delete.Checked = true; }
+			else { RadioButton_ControlPanel_Remove.Checked = true; }
 
 			if (Classes.Class_SavedData.Int_RegistryEditor == 0) { RadioButton_RegistryEditor_Add.Checked = true; }
-			else { RadioButton_RegistryEditor_Delete.Checked = true; }
+			else { RadioButton_RegistryEditor_Remove.Checked = true; }
 		}
 
 		private void RadioButtons_ControlPanel_Click(object Object_RadioButton, EventArgs EventArgs_Click)
 		{
 			if (((RadioButton)Object_RadioButton).TabIndex == 0) { Classes.Class_ControlPanel.ControlPanel_Add(); }
-			else { Classes.Class_ControlPanel.ControlPanel_Delete(); }
+			else { Classes.Class_ControlPanel.ControlPanel_Remove(); }
 
 			Classes.Class_SavedData.Int_ControlPanel = ((RadioButton)Object_RadioButton).TabIndex;
 		}
@@ -30,7 +30,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 		private void RadioButtons_RegistryEditor_Click(object Object_RadioButton, EventArgs EventArgs_Click)
 		{
 			if (((RadioButton)Object_RadioButton).TabIndex == 0) { Classes.Class_RegistryEditor.RegistryEditor_Add(); }
-			else { Classes.Class_RegistryEditor.RegistryEditor_Delete(); }
+			else { Classes.Class_RegistryEditor.RegistryEditor_Remove(); }
 
 			Classes.Class_SavedData.Int_RegistryEditor = ((RadioButton)Object_RadioButton).TabIndex;
 		}

@@ -23,7 +23,7 @@ namespace WindowsAssistant.ResourcesData.Source.Functions.ContextMenu
 			{ RegistryKey_ControlPanel.SetValue(string.Empty, "Control.exe"); }
 		}
 
-		public void ControlPanel_Delete()
+		public void ControlPanel_Remove()
 		{ Registry.ClassesRoot.DeleteSubKeyTree(_Control, false); }
 
 		public int Status_Get()

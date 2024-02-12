@@ -16,9 +16,9 @@ namespace WindowsAssistant.ResourcesData.Forms
 			Classes.Class_AdditionalMethods.Explorer_Restart();
 		}
 
-		private void Button_Delete_Click(object Object_Button, EventArgs EventArgs_Click)
+		private void Button_Remove_Click(object Object_Button, EventArgs EventArgs_Click)
 		{
-			Classes.Class_Extension.Extension_Delete(TextBox_Extension.Text);
+			Classes.Class_Extension.Extension_Remove(TextBox_Extension.Text);
 			Classes.Class_AdditionalMethods.Explorer_Restart();
 		}
 

@@ -23,11 +23,11 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.Panel_Left = new Panel();
 			this.GroupBox_ControlPanel = new GroupBox();
 			this.RadioButton_ControlPanel_Add = new RadioButton();
-			this.RadioButton_ControlPanel_Delete = new RadioButton();
+			this.RadioButton_ControlPanel_Remove = new RadioButton();
 			this.Panel_Layer = new Panel();
 			this.GroupBox_RegistryEditor = new GroupBox();
 			this.RadioButton_RegistryEditor_Add = new RadioButton();
-			this.RadioButton_RegistryEditor_Delete = new RadioButton();
+			this.RadioButton_RegistryEditor_Remove = new RadioButton();
 			this.Panel_Right = new Panel();
 			this.Panel_Left.SuspendLayout();
 			this.GroupBox_ControlPanel.SuspendLayout();
@@ -61,7 +61,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.Panel_Left.Size = new Size(380, 540);
 			this.Panel_Left.TabIndex = 0;
 
-			this.GroupBox_ControlPanel.Controls.Add(this.RadioButton_ControlPanel_Delete);
+			this.GroupBox_ControlPanel.Controls.Add(this.RadioButton_ControlPanel_Remove);
 			this.GroupBox_ControlPanel.Controls.Add(this.RadioButton_ControlPanel_Add);
 			this.GroupBox_ControlPanel.Dock = DockStyle.Top;
 			this.GroupBox_ControlPanel.Font = new Font("Microsoft Sans Serif", 12F);
@@ -83,15 +83,15 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.RadioButton_ControlPanel_Add.Text = "Add";
 			this.RadioButton_ControlPanel_Add.Click += new EventHandler(this.RadioButtons_ControlPanel_Click);
 
-			this.RadioButton_ControlPanel_Delete.Dock = DockStyle.Top;
-			this.RadioButton_ControlPanel_Delete.Font = new Font("Microsoft Sans Serif", 10F);
-			this.RadioButton_ControlPanel_Delete.Location = new Point(3, 45);
-			this.RadioButton_ControlPanel_Delete.Name = "RadioButton_ControlPanel_Delete";
-			this.RadioButton_ControlPanel_Delete.Padding = new Padding(4, 0, 0, 0);
-			this.RadioButton_ControlPanel_Delete.Size = new Size(366, 21);
-			this.RadioButton_ControlPanel_Delete.TabIndex = 0;
-			this.RadioButton_ControlPanel_Delete.Text = "Delete";
-			this.RadioButton_ControlPanel_Delete.Click += new EventHandler(this.RadioButtons_ControlPanel_Click);
+			this.RadioButton_ControlPanel_Remove.Dock = DockStyle.Top;
+			this.RadioButton_ControlPanel_Remove.Font = new Font("Microsoft Sans Serif", 10F);
+			this.RadioButton_ControlPanel_Remove.Location = new Point(3, 45);
+			this.RadioButton_ControlPanel_Remove.Name = "RadioButton_ControlPanel_Remove";
+			this.RadioButton_ControlPanel_Remove.Padding = new Padding(4, 0, 0, 0);
+			this.RadioButton_ControlPanel_Remove.Size = new Size(366, 21);
+			this.RadioButton_ControlPanel_Remove.TabIndex = 0;
+			this.RadioButton_ControlPanel_Remove.Text = "Remove";
+			this.RadioButton_ControlPanel_Remove.Click += new EventHandler(this.RadioButtons_ControlPanel_Click);
 
 			this.Panel_Layer.Dock = DockStyle.Top;
 			this.Panel_Layer.Location = new Point(4, 72);
@@ -99,7 +99,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.Panel_Layer.Size = new Size(372, 4);
 			this.Panel_Layer.TabIndex = 0;
 
-			this.GroupBox_RegistryEditor.Controls.Add(this.RadioButton_RegistryEditor_Delete);
+			this.GroupBox_RegistryEditor.Controls.Add(this.RadioButton_RegistryEditor_Remove);
 			this.GroupBox_RegistryEditor.Controls.Add(this.RadioButton_RegistryEditor_Add);
 			this.GroupBox_RegistryEditor.Dock = DockStyle.Top;
 			this.GroupBox_RegistryEditor.Font = new Font("Microsoft Sans Serif", 12F);
@@ -121,15 +121,15 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.RadioButton_RegistryEditor_Add.Text = "Add";
 			this.RadioButton_RegistryEditor_Add.Click += new EventHandler(this.RadioButtons_RegistryEditor_Click);
 
-			this.RadioButton_RegistryEditor_Delete.Dock = DockStyle.Top;
-			this.RadioButton_RegistryEditor_Delete.Font = new Font("Microsoft Sans Serif", 10F);
-			this.RadioButton_RegistryEditor_Delete.Location = new Point(3, 45);
-			this.RadioButton_RegistryEditor_Delete.Name = "RadioButton_RegistryEditor_Delete";
-			this.RadioButton_RegistryEditor_Delete.Padding = new Padding(4, 0, 0, 0);
-			this.RadioButton_RegistryEditor_Delete.Size = new Size(366, 21);
-			this.RadioButton_RegistryEditor_Delete.TabIndex = 0;
-			this.RadioButton_RegistryEditor_Delete.Text = "Delete";
-			this.RadioButton_RegistryEditor_Delete.Click += new EventHandler(this.RadioButtons_RegistryEditor_Click);
+			this.RadioButton_RegistryEditor_Remove.Dock = DockStyle.Top;
+			this.RadioButton_RegistryEditor_Remove.Font = new Font("Microsoft Sans Serif", 10F);
+			this.RadioButton_RegistryEditor_Remove.Location = new Point(3, 45);
+			this.RadioButton_RegistryEditor_Remove.Name = "RadioButton_RegistryEditor_Remove";
+			this.RadioButton_RegistryEditor_Remove.Padding = new Padding(4, 0, 0, 0);
+			this.RadioButton_RegistryEditor_Remove.Size = new Size(366, 21);
+			this.RadioButton_RegistryEditor_Remove.TabIndex = 0;
+			this.RadioButton_RegistryEditor_Remove.Text = "Remove";
+			this.RadioButton_RegistryEditor_Remove.Click += new EventHandler(this.RadioButtons_RegistryEditor_Click);
 
 			this.Panel_Right.Dock = DockStyle.Fill;
 			this.Panel_Right.Location = new Point(380, 0);
@@ -142,11 +142,11 @@ namespace WindowsAssistant.ResourcesData.Forms
 		private Panel Panel_Left;
 		private GroupBox GroupBox_ControlPanel;
 		private RadioButton RadioButton_ControlPanel_Add;
-		private RadioButton RadioButton_ControlPanel_Delete;
+		private RadioButton RadioButton_ControlPanel_Remove;
 		private Panel Panel_Layer;
 		private GroupBox GroupBox_RegistryEditor;
 		private RadioButton RadioButton_RegistryEditor_Add;
-		private RadioButton RadioButton_RegistryEditor_Delete;
+		private RadioButton RadioButton_RegistryEditor_Remove;
 		private Panel Panel_Right;
 	}
 }

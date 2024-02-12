@@ -20,7 +20,7 @@ namespace WindowsAssistant.ResourcesData.Source.Functions.Extensions
 			}
 		}
 
-		public void Extension_Delete(string String_Extension)
+		public void Extension_Remove(string String_Extension)
 		{ Registry.ClassesRoot.DeleteSubKeyTree($".{String_Extension}{_ShellNew}", false); }
 	}
 }

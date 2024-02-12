@@ -23,7 +23,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.Panel_Left = new Panel();
 			this.GroupBox_SecondsClock = new GroupBox();
 			this.RadioButton_Add = new RadioButton();
-			this.RadioButton_Delete = new RadioButton();
+			this.RadioButton_Remove = new RadioButton();
 			this.Panel_Left_Layer = new Panel();
 			this.Button_ClearWallpapers = new Button();
 			this.Panel_Right = new Panel();
@@ -66,7 +66,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.Panel_Left.Size = new Size(380, 540);
 			this.Panel_Left.TabIndex = 0;
 
-			this.GroupBox_SecondsClock.Controls.Add(this.RadioButton_Delete);
+			this.GroupBox_SecondsClock.Controls.Add(this.RadioButton_Remove);
 			this.GroupBox_SecondsClock.Controls.Add(this.RadioButton_Add);
 			this.GroupBox_SecondsClock.Dock = DockStyle.Top;
 			this.GroupBox_SecondsClock.Font = new Font("Microsoft Sans Serif", 12F);
@@ -88,15 +88,15 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.RadioButton_Add.Text = "Add";
 			this.RadioButton_Add.Click += new EventHandler(this.RadioButtons_SecondsClock_Click);
 
-			this.RadioButton_Delete.Dock = DockStyle.Top;
-			this.RadioButton_Delete.Font = new Font("Microsoft Sans Serif", 10F);
-			this.RadioButton_Delete.Location = new Point(3, 45);
-			this.RadioButton_Delete.Name = "RadioButton_Delete";
-			this.RadioButton_Delete.Padding = new Padding(4, 0, 0, 0);
-			this.RadioButton_Delete.Size = new Size(366, 21);
-			this.RadioButton_Delete.TabIndex = 0;
-			this.RadioButton_Delete.Text = "Delete";
-			this.RadioButton_Delete.Click += new EventHandler(this.RadioButtons_SecondsClock_Click);
+			this.RadioButton_Remove.Dock = DockStyle.Top;
+			this.RadioButton_Remove.Font = new Font("Microsoft Sans Serif", 10F);
+			this.RadioButton_Remove.Location = new Point(3, 45);
+			this.RadioButton_Remove.Name = "RadioButton_Remove";
+			this.RadioButton_Remove.Padding = new Padding(4, 0, 0, 0);
+			this.RadioButton_Remove.Size = new Size(366, 21);
+			this.RadioButton_Remove.TabIndex = 0;
+			this.RadioButton_Remove.Text = "Remove";
+			this.RadioButton_Remove.Click += new EventHandler(this.RadioButtons_SecondsClock_Click);
 
 			this.Panel_Left_Layer.Dock = DockStyle.Top;
 			this.Panel_Left_Layer.Location = new Point(4, 72);
@@ -176,7 +176,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 		private Panel Panel_Left;
 		private GroupBox GroupBox_SecondsClock;
 		private RadioButton RadioButton_Add;
-		private RadioButton RadioButton_Delete;
+		private RadioButton RadioButton_Remove;
 		private Panel Panel_Left_Layer;
 		private Button Button_ClearWallpapers;
 		private Panel Panel_Right;

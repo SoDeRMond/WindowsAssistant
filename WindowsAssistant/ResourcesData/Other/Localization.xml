@@ -203,9 +203,9 @@
 			<russian>Добавить</russian>
 		</translations>
 	</key>
-	<key name="Interface_RadioButton_Delete">
+	<key name="Interface_RadioButton_Remove">
 		<translations>
-			<english>Delete</english>
+			<english>Remove</english>
 			<russian>Удалить</russian>
 		</translations>
 	</key>
@@ -245,9 +245,9 @@
 			<russian>Добавить</russian>
 		</translations>
 	</key>
-	<key name="ContextMenu_RadioButton_ControlPanel_Delete">
+	<key name="ContextMenu_RadioButton_ControlPanel_Remove">
 		<translations>
-			<english>Delete</english>
+			<english>Remove</english>
 			<russian>Удалить</russian>
 		</translations>
 	</key>
@@ -269,9 +269,9 @@
 			<russian>Добавить</russian>
 		</translations>
 	</key>
-	<key name="ContextMenu_RadioButton_RegistryEditor_Delete">
+	<key name="ContextMenu_RadioButton_RegistryEditor_Remove">
 		<translations>
-			<english>Delete</english>
+			<english>Remove</english>
 			<russian>Удалить</russian>
 		</translations>
 	</key>
@@ -299,9 +299,9 @@
 			<russian>Добавить</russian>
 		</translations>
 	</key>
-	<key name="Extensions_Button_Delete">
+	<key name="Extensions_Button_Remove">
 		<translations>
-			<english>Delete</english>
+			<english>Remove</english>
 			<russian>Удалить</russian>
 		</translations>
 	</key>
