@@ -94,7 +94,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.RadioButton_Remove.Name = "RadioButton_Remove";
 			this.RadioButton_Remove.Padding = new Padding(4, 0, 0, 0);
 			this.RadioButton_Remove.Size = new Size(366, 21);
-			this.RadioButton_Remove.TabIndex = 0;
+			this.RadioButton_Remove.TabIndex = 1;
 			this.RadioButton_Remove.Text = "Remove";
 			this.RadioButton_Remove.Click += new EventHandler(this.RadioButtons_SecondsClock_Click);
 
