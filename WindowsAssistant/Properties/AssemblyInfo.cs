@@ -6,7 +6,7 @@ using System.Reflection;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("SoDeRMond")]
 [assembly: AssemblyProduct("Windows Assistant")]
-[assembly: AssemblyCopyright("© SoDeRMond, 2023")]
+[assembly: AssemblyCopyright("© SoDeRMond, 2023—2024")]
 [assembly: AssemblyTrademark("SoDeRMond")]
 [assembly: AssemblyCulture("")]
 [assembly: ComVisible(false)]
