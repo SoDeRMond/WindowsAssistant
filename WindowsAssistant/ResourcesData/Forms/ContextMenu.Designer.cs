@@ -89,7 +89,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.RadioButton_ControlPanel_Remove.Name = "RadioButton_ControlPanel_Remove";
 			this.RadioButton_ControlPanel_Remove.Padding = new Padding(4, 0, 0, 0);
 			this.RadioButton_ControlPanel_Remove.Size = new Size(366, 21);
-			this.RadioButton_ControlPanel_Remove.TabIndex = 0;
+			this.RadioButton_ControlPanel_Remove.TabIndex = 1;
 			this.RadioButton_ControlPanel_Remove.Text = "Remove";
 			this.RadioButton_ControlPanel_Remove.Click += new EventHandler(this.RadioButtons_ControlPanel_Click);
 
@@ -127,7 +127,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.RadioButton_RegistryEditor_Remove.Name = "RadioButton_RegistryEditor_Remove";
 			this.RadioButton_RegistryEditor_Remove.Padding = new Padding(4, 0, 0, 0);
 			this.RadioButton_RegistryEditor_Remove.Size = new Size(366, 21);
-			this.RadioButton_RegistryEditor_Remove.TabIndex = 0;
+			this.RadioButton_RegistryEditor_Remove.TabIndex = 1;
 			this.RadioButton_RegistryEditor_Remove.Text = "Remove";
 			this.RadioButton_RegistryEditor_Remove.Click += new EventHandler(this.RadioButtons_RegistryEditor_Click);
 

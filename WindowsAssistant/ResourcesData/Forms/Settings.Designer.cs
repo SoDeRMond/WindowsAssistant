@@ -136,7 +136,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.RadioButton_Disable.Name = "RadioButton_Disable";
 			this.RadioButton_Disable.Padding = new Padding(4, 0, 0, 0);
 			this.RadioButton_Disable.Size = new Size(366, 21);
-			this.RadioButton_Disable.TabIndex = 0;
+			this.RadioButton_Disable.TabIndex = 1;
 			this.RadioButton_Disable.Text = "Disable";
 			this.RadioButton_Disable.Click += new EventHandler(this.RadioButtons_AutoProgramUpdates_Click);
 
