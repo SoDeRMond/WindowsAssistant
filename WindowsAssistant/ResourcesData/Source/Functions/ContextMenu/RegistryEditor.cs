@@ -23,7 +23,7 @@ namespace WindowsAssistant.ResourcesData.Source.Functions.ContextMenu
 			{ RegistryKey_RegistryEditor.SetValue(string.Empty, "Regedit.exe"); }
 		}
 
-		public void RegistryEditor_Delete()
+		public void RegistryEditor_Remove()
 		{ Registry.ClassesRoot.DeleteSubKeyTree(_Regedit, false); }
 
 		public int Status_Get()

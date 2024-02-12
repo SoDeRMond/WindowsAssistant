@@ -13,13 +13,13 @@ namespace WindowsAssistant.ResourcesData.Forms
 		private void UI_Refresh()
 		{
 			if (Classes.Class_SavedData.Int_SecondsClock == 0) { RadioButton_Add.Checked = true; }
-			else { RadioButton_Delete.Checked = true; }
+			else { RadioButton_Remove.Checked = true; }
 		}
 
 		private void RadioButtons_SecondsClock_Click(object Object_RadioButton, EventArgs EventArgs_Click)
 		{
 			if (((RadioButton)Object_RadioButton).TabIndex == 0) { Classes.Class_SecondsClock.SecondsClock_Add(); }
-			else { Classes.Class_SecondsClock.SecondsClock_Delete(); }
+			else { Classes.Class_SecondsClock.SecondsClock_Remove(); }
 
 			Classes.Class_SavedData.Int_SecondsClock = ((RadioButton)Object_RadioButton).TabIndex;
 			Classes.Class_AdditionalMethods.Explorer_Restart();

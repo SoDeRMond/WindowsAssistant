@@ -27,7 +27,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.Panel_Left = new Panel();
 			this.Button_Add = new Button();
 			this.Panel_Right = new Panel();
-			this.Button_Delete = new Button();
+			this.Button_Remove = new Button();
 			this.Panel_Top.SuspendLayout();
 			this.Panel_Extension.SuspendLayout();
 			this.Panel_Left.SuspendLayout();
@@ -111,7 +111,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.Button_Add.Text = "Add";
 			this.Button_Add.Click += new EventHandler(this.Button_Add_Click);
 
-			this.Panel_Right.Controls.Add(this.Button_Delete);
+			this.Panel_Right.Controls.Add(this.Button_Remove);
 			this.Panel_Right.Dock = DockStyle.Fill;
 			this.Panel_Right.Location = new Point(380, 28);
 			this.Panel_Right.Name = "Panel_Right";
@@ -119,17 +119,17 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.Panel_Right.Size = new Size(380, 512);
 			this.Panel_Right.TabIndex = 0;
 
-			this.Button_Delete.Dock = DockStyle.Top;
-			this.Button_Delete.FlatAppearance.BorderSize = 0;
-			this.Button_Delete.FlatStyle = FlatStyle.Flat;
-			this.Button_Delete.Font = new Font("Microsoft Sans Serif", 10F);
-			this.Button_Delete.ForeColor = Color.White;
-			this.Button_Delete.Location = new Point(4, 2);
-			this.Button_Delete.Name = "Button_Delete";
-			this.Button_Delete.Size = new Size(372, 30);
-			this.Button_Delete.TabIndex = 0;
-			this.Button_Delete.Text = "Delete";
-			this.Button_Delete.Click += new EventHandler(this.Button_Delete_Click);
+			this.Button_Remove.Dock = DockStyle.Top;
+			this.Button_Remove.FlatAppearance.BorderSize = 0;
+			this.Button_Remove.FlatStyle = FlatStyle.Flat;
+			this.Button_Remove.Font = new Font("Microsoft Sans Serif", 10F);
+			this.Button_Remove.ForeColor = Color.White;
+			this.Button_Remove.Location = new Point(4, 2);
+			this.Button_Remove.Name = "Button_Remove";
+			this.Button_Remove.Size = new Size(372, 30);
+			this.Button_Remove.TabIndex = 0;
+			this.Button_Remove.Text = "Remove";
+			this.Button_Remove.Click += new EventHandler(this.Button_Remove_Click);
 		}
 
 		private Panel Panel_Top;
@@ -139,6 +139,6 @@ namespace WindowsAssistant.ResourcesData.Forms
 		private Panel Panel_Left;
 		private Button Button_Add;
 		private Panel Panel_Right;
-		private Button Button_Delete;
+		private Button Button_Remove;
 	}
 }

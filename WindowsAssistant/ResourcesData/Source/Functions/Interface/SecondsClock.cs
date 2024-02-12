@@ -17,7 +17,7 @@ namespace WindowsAssistant.ResourcesData.Source.Functions.Interface
 			{ RegistryKey_SecondsClock.SetValue(_Seconds, 1, RegistryValueKind.DWord); }
 		}
 
-		public void SecondsClock_Delete()
+		public void SecondsClock_Remove()
 		{
 			using (RegistryKey RegistryKey_SecondsClock = Registry.CurrentUser.CreateSubKey(_Advanced))
 			{ RegistryKey_SecondsClock.DeleteValue(_Seconds, false); }
