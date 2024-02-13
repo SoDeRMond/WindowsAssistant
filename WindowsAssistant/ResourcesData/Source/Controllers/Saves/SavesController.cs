@@ -34,6 +34,7 @@ namespace WindowsAssistant.ResourcesData.Source.Controllers.Saves
 			Classes.Class_SavedData.Int_AntiCrash = Classes.Class_AntiCrash.Status_Get();
 
 			Classes.Class_SavedData.Int_SecondsClock = Classes.Class_SecondsClock.Status_Get();
+			Classes.Class_SavedData.Int_SearchHistory = Classes.Class_SearchHistory.Status_Get();
 
 			Classes.Class_SavedData.Int_ControlPanel = Classes.Class_ControlPanel.Status_Get();
 			Classes.Class_SavedData.Int_RegistryEditor = Classes.Class_RegistryEditor.Status_Get();

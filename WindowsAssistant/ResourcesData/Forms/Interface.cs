@@ -14,6 +14,9 @@ namespace WindowsAssistant.ResourcesData.Forms
 		{
 			if (Classes.Class_SavedData.Int_SecondsClock == 0) { RadioButton_Add.Checked = true; }
 			else { RadioButton_Remove.Checked = true; }
+
+			if (Classes.Class_SavedData.Int_SearchHistory == 0) { RadioButton_Enable.Checked = true; }
+			else { RadioButton_Disable.Checked = true; }
 		}
 
 		private void RadioButtons_SecondsClock_Click(object Object_RadioButton, EventArgs EventArgs_Click)
@@ -22,6 +25,15 @@ namespace WindowsAssistant.ResourcesData.Forms
 			else { Classes.Class_SecondsClock.SecondsClock_Remove(); }
 
 			Classes.Class_SavedData.Int_SecondsClock = ((RadioButton)Object_RadioButton).TabIndex;
+			Classes.Class_AdditionalMethods.Explorer_Restart();
+		}
+
+		private void RadioButtons_SearchHistory_Click(object Object_RadioButton, EventArgs EventArgs_Click)
+		{
+			if (((RadioButton)Object_RadioButton).TabIndex == 0) { Classes.Class_SearchHistory.SearchHistory_Enable(); }
+			else { Classes.Class_SearchHistory.SearchHistory_Disable(); }
+
+			Classes.Class_SavedData.Int_SearchHistory = ((RadioButton)Object_RadioButton).TabIndex;
 			Classes.Class_AdditionalMethods.Explorer_Restart();
 		}
 
