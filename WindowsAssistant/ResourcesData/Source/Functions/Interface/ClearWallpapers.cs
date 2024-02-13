@@ -13,10 +13,7 @@ namespace WindowsAssistant.ResourcesData.Source.Functions.Interface
 			using (RegistryKey RegistryKey_ClearWallpapers = Registry.CurrentUser.CreateSubKey(_Wallpapers))
 			{
 				foreach (string String_Name in RegistryKey_ClearWallpapers.GetValueNames())
-				{
-					if (String_Name.StartsWith("BackgroundHistoryPath") && !String_Name.EndsWith("0"))
-					{ RegistryKey_ClearWallpapers.DeleteValue(String_Name, false); }
-				}
+				{ RegistryKey_ClearWallpapers.DeleteValue(String_Name, false); }
 			}
 		}
 	}
