@@ -42,7 +42,9 @@
 	- Anti-Crash in Unreal Engine Games
 - Interface
 	- Seconds in Clock
+	- Search History
 	- Button to Clear Wallpapers History
+	- Button to Clear Colors History
 	- Corrections
 		- Button to Fix the Desktop Update
 		- Button to Fix the Icon Cache
