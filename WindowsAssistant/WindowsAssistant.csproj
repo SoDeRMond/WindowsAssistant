@@ -95,6 +95,7 @@
 		<Compile Include="ResourcesData\Source\Functions\Extensions\Extension.cs" />
 		<Compile Include="ResourcesData\Source\Functions\Interface\ClearWallpapers.cs" />
 		<Compile Include="ResourcesData\Source\Functions\Interface\Corrections.cs" />
+		<Compile Include="ResourcesData\Source\Functions\Interface\SearchHistory.cs" />
 		<Compile Include="ResourcesData\Source\Functions\Interface\SecondsClock.cs" />
 		<Compile Include="ResourcesData\Source\Functions\System\AntiCrash.cs" />
 		<Compile Include="ResourcesData\Source\Functions\System\PowerScheme.cs" />

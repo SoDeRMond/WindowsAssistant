@@ -15,6 +15,7 @@ namespace WindowsAssistant.ResourcesData.Source.Data
 
 
 		public int Int_SecondsClock { get; set; }
+		public int Int_SearchHistory { get; set; }
 
 
 		public int Int_ControlPanel { get; set; }

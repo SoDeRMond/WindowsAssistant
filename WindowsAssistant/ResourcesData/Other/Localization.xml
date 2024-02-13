@@ -209,6 +209,24 @@
 			<russian>Удалить</russian>
 		</translations>
 	</key>
+	<key name="Interface_GroupBox_SearchHistory">
+		<translations>
+			<english>Search History</english>
+			<russian>История Поиска</russian>
+		</translations>
+	</key>
+	<key name="Interface_RadioButton_Enable">
+		<translations>
+			<english>Enable</english>
+			<russian>Включить</russian>
+		</translations>
+	</key>
+	<key name="Interface_RadioButton_Disable">
+		<translations>
+			<english>Disable</english>
+			<russian>Выключить</russian>
+		</translations>
+	</key>
 	<key name="Interface_Button_ClearWallpapers">
 		<translations>
 			<english>Clear Wallpapers History</english>

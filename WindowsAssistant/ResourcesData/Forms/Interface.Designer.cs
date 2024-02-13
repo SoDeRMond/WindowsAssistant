@@ -24,7 +24,11 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.GroupBox_SecondsClock = new GroupBox();
 			this.RadioButton_Add = new RadioButton();
 			this.RadioButton_Remove = new RadioButton();
-			this.Panel_Left_Layer = new Panel();
+			this.Panel_Left_Layer_One = new Panel();
+			this.GroupBox_SearchHistory = new GroupBox();
+			this.RadioButton_Enable = new RadioButton();
+			this.RadioButton_Disable = new RadioButton();
+			this.Panel_Left_Layer_Two = new Panel();
 			this.Button_ClearWallpapers = new Button();
 			this.Panel_Right = new Panel();
 			this.GroupBox_Corrections = new GroupBox();
@@ -34,6 +38,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.Button_IconCache = new Button();
 			this.Panel_Left.SuspendLayout();
 			this.GroupBox_SecondsClock.SuspendLayout();
+			this.GroupBox_SearchHistory.SuspendLayout();
 			this.Panel_Right.SuspendLayout();
 			this.GroupBox_Corrections.SuspendLayout();
 			this.SuspendLayout();
@@ -52,12 +57,15 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.SizeChanged += new EventHandler(this.Form_Interface_SizeChanged);
 			this.Panel_Left.ResumeLayout(false);
 			this.GroupBox_SecondsClock.ResumeLayout(false);
+			this.GroupBox_SearchHistory.ResumeLayout(false);
 			this.Panel_Right.ResumeLayout(false);
 			this.GroupBox_Corrections.ResumeLayout(false);
 			this.ResumeLayout(false);
 
 			this.Panel_Left.Controls.Add(this.Button_ClearWallpapers);
-			this.Panel_Left.Controls.Add(this.Panel_Left_Layer);
+			this.Panel_Left.Controls.Add(this.Panel_Left_Layer_Two);
+			this.Panel_Left.Controls.Add(this.GroupBox_SearchHistory);
+			this.Panel_Left.Controls.Add(this.Panel_Left_Layer_One);
 			this.Panel_Left.Controls.Add(this.GroupBox_SecondsClock);
 			this.Panel_Left.Dock = DockStyle.Left;
 			this.Panel_Left.Location = new Point(0, 0);
@@ -98,11 +106,49 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.RadioButton_Remove.Text = "Remove";
 			this.RadioButton_Remove.Click += new EventHandler(this.RadioButtons_SecondsClock_Click);
 
-			this.Panel_Left_Layer.Dock = DockStyle.Top;
-			this.Panel_Left_Layer.Location = new Point(4, 72);
-			this.Panel_Left_Layer.Name = "Panel_Left_Layer";
-			this.Panel_Left_Layer.Size = new Size(372, 2);
-			this.Panel_Left_Layer.TabIndex = 0;
+			this.Panel_Left_Layer_One.Dock = DockStyle.Top;
+			this.Panel_Left_Layer_One.Location = new Point(4, 72);
+			this.Panel_Left_Layer_One.Name = "Panel_Left_Layer_One";
+			this.Panel_Left_Layer_One.Size = new Size(372, 2);
+			this.Panel_Left_Layer_One.TabIndex = 0;
+
+			this.GroupBox_SearchHistory.Controls.Add(this.RadioButton_Disable);
+			this.GroupBox_SearchHistory.Controls.Add(this.RadioButton_Enable);
+			this.GroupBox_SearchHistory.Dock = DockStyle.Top;
+			this.GroupBox_SearchHistory.Font = new Font("Microsoft Sans Serif", 12F);
+			this.GroupBox_SearchHistory.ForeColor = Color.White;
+			this.GroupBox_SearchHistory.Location = new Point(4, 74);
+			this.GroupBox_SearchHistory.Name = "GroupBox_SearchHistory";
+			this.GroupBox_SearchHistory.Size = new Size(372, 70);
+			this.GroupBox_SearchHistory.TabIndex = 0;
+			this.GroupBox_SearchHistory.TabStop = false;
+			this.GroupBox_SearchHistory.Text = "Search History";
+
+			this.RadioButton_Enable.Dock = DockStyle.Top;
+			this.RadioButton_Enable.Font = new Font("Microsoft Sans Serif", 10F);
+			this.RadioButton_Enable.Location = new Point(3, 22);
+			this.RadioButton_Enable.Name = "RadioButton_Enable";
+			this.RadioButton_Enable.Padding = new Padding(4, 2, 0, 0);
+			this.RadioButton_Enable.Size = new Size(366, 23);
+			this.RadioButton_Enable.TabIndex = 0;
+			this.RadioButton_Enable.Text = "Enable";
+			this.RadioButton_Enable.Click += new EventHandler(this.RadioButtons_SearchHistory_Click);
+
+			this.RadioButton_Disable.Dock = DockStyle.Top;
+			this.RadioButton_Disable.Font = new Font("Microsoft Sans Serif", 10F);
+			this.RadioButton_Disable.Location = new Point(3, 45);
+			this.RadioButton_Disable.Name = "RadioButton_Disable";
+			this.RadioButton_Disable.Padding = new Padding(4, 0, 0, 0);
+			this.RadioButton_Disable.Size = new Size(366, 21);
+			this.RadioButton_Disable.TabIndex = 1;
+			this.RadioButton_Disable.Text = "Disable";
+			this.RadioButton_Disable.Click += new EventHandler(this.RadioButtons_SearchHistory_Click);
+
+			this.Panel_Left_Layer_Two.Dock = DockStyle.Top;
+			this.Panel_Left_Layer_Two.Location = new Point(4, 144);
+			this.Panel_Left_Layer_Two.Name = "Panel_Left_Layer_Two";
+			this.Panel_Left_Layer_Two.Size = new Size(372, 2);
+			this.Panel_Left_Layer_Two.TabIndex = 0;
 
 			this.Button_ClearWallpapers.Dock = DockStyle.Top;
 			this.Button_ClearWallpapers.FlatAppearance.BorderSize = 0;
@@ -177,7 +223,11 @@ namespace WindowsAssistant.ResourcesData.Forms
 		private GroupBox GroupBox_SecondsClock;
 		private RadioButton RadioButton_Add;
 		private RadioButton RadioButton_Remove;
-		private Panel Panel_Left_Layer;
+		private Panel Panel_Left_Layer_One;
+		private GroupBox GroupBox_SearchHistory;
+		private RadioButton RadioButton_Enable;
+		private RadioButton RadioButton_Disable;
+		private Panel Panel_Left_Layer_Two;
 		private Button Button_ClearWallpapers;
 		private Panel Panel_Right;
 		private GroupBox GroupBox_Corrections;

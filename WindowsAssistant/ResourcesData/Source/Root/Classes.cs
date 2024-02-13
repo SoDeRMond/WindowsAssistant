@@ -24,6 +24,7 @@ namespace WindowsAssistant.ResourcesData.Source.Root
 
 
 		public static SecondsClock Class_SecondsClock = new SecondsClock();
+		public static SearchHistory Class_SearchHistory = new SearchHistory();
 		public static ClearWallpapers Class_ClearWallpapers = new ClearWallpapers();
 		public static Corrections Class_Corrections = new Corrections();
 
