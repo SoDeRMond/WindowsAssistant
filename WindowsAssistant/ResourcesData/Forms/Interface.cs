@@ -40,6 +40,9 @@ namespace WindowsAssistant.ResourcesData.Forms
 		private void Button_ClearWallpapers_Click(object Object_Button, EventArgs EventArgs_Click)
 		{ Classes.Class_ClearWallpapers.Wallpapers_Clear(); }
 
+		private void Button_ClearColors_Click(object Object_Button, EventArgs EventArgs_Click)
+		{ Classes.Class_ClearColors.Colors_Clear(); }
+
 		private void Button_DesktopUpdate_Click(object Object_Button, EventArgs EventArgs_Click)
 		{
 			Classes.Class_Corrections.DesktopUpdate();

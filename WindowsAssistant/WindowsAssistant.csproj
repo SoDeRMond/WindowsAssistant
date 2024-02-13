@@ -93,6 +93,7 @@
 		<Compile Include="ResourcesData\Source\Functions\ContextMenu\ControlPanel.cs" />
 		<Compile Include="ResourcesData\Source\Functions\ContextMenu\RegistryEditor.cs" />
 		<Compile Include="ResourcesData\Source\Functions\Extensions\Extension.cs" />
+		<Compile Include="ResourcesData\Source\Functions\Interface\ClearColors.cs" />
 		<Compile Include="ResourcesData\Source\Functions\Interface\ClearWallpapers.cs" />
 		<Compile Include="ResourcesData\Source\Functions\Interface\Corrections.cs" />
 		<Compile Include="ResourcesData\Source\Functions\Interface\SearchHistory.cs" />

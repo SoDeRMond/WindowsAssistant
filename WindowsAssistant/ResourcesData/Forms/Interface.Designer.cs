@@ -30,6 +30,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.RadioButton_Disable = new RadioButton();
 			this.Panel_Left_Layer_Two = new Panel();
 			this.Button_ClearWallpapers = new Button();
+			this.Button_ClearColors = new Button();
 			this.Panel_Right = new Panel();
 			this.GroupBox_Corrections = new GroupBox();
 			this.Panel_Right_Layer_One = new Panel();
@@ -62,6 +63,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.GroupBox_Corrections.ResumeLayout(false);
 			this.ResumeLayout(false);
 
+			this.Panel_Left.Controls.Add(this.Button_ClearColors);
 			this.Panel_Left.Controls.Add(this.Button_ClearWallpapers);
 			this.Panel_Left.Controls.Add(this.Panel_Left_Layer_Two);
 			this.Panel_Left.Controls.Add(this.GroupBox_SearchHistory);
@@ -162,6 +164,18 @@ namespace WindowsAssistant.ResourcesData.Forms
 			this.Button_ClearWallpapers.Text = "Clear Wallpapers History";
 			this.Button_ClearWallpapers.Click += new EventHandler(this.Button_ClearWallpapers_Click);
 
+			this.Button_ClearColors.Dock = DockStyle.Top;
+			this.Button_ClearColors.FlatAppearance.BorderSize = 0;
+			this.Button_ClearColors.FlatStyle = FlatStyle.Flat;
+			this.Button_ClearColors.Font = new Font("Microsoft Sans Serif", 10F);
+			this.Button_ClearColors.ForeColor = Color.White;
+			this.Button_ClearColors.Location = new Point(4, 176);
+			this.Button_ClearColors.Name = "Button_ClearColors";
+			this.Button_ClearColors.Size = new Size(372, 30);
+			this.Button_ClearColors.TabIndex = 0;
+			this.Button_ClearColors.Text = "Clear Colors History";
+			this.Button_ClearColors.Click += new EventHandler(this.Button_ClearColors_Click);
+
 			this.Panel_Right.Controls.Add(this.GroupBox_Corrections);
 			this.Panel_Right.Dock = DockStyle.Fill;
 			this.Panel_Right.Location = new Point(380, 0);
@@ -229,6 +243,7 @@ namespace WindowsAssistant.ResourcesData.Forms
 		private RadioButton RadioButton_Disable;
 		private Panel Panel_Left_Layer_Two;
 		private Button Button_ClearWallpapers;
+		private Button Button_ClearColors;
 		private Panel Panel_Right;
 		private GroupBox GroupBox_Corrections;
 		private Panel Panel_Right_Layer_One;
