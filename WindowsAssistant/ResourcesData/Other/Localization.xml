@@ -233,6 +233,12 @@
 			<russian>Очистить Историю Обоев</russian>
 		</translations>
 	</key>
+	<key name="Interface_Button_ClearColors">
+		<translations>
+			<english>Clear Colors History</english>
+			<russian>Очистить Историю Цветов</russian>
+		</translations>
+	</key>
 	<key name="Interface_GroupBox_Corrections">
 		<translations>
 			<english>Corrections</english>
